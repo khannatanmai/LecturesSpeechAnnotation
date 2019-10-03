@@ -1,0 +1,510 @@
+00:05
+[Music]
+00:07
+all right
+00:08
+there are many other applications like
+00:14
+constructing the expression tree from
+00:27
+the postorder expression okay I'll leave
+00:39
+you with an idea as to how to go for it
+00:41
+suppose I have ABC plus and star okay
+00:48
+what we do is when we have symbols first
+00:53
+we have again a forest of trees pointing
+00:56
+to a this pointing to B this point as
+01:00
+use you Travis from the left to right of
+01:03
+this expression as you move from left to
+01:06
+right of this expression what do you do
+01:07
+you just create pointers to trees in a
+01:09
+forest then what you do is you come
+01:12
+across plus then you create a new node
+01:15
+with plus and then you take the topmost
+01:18
+- it's like a stack okay there's
+01:21
+actually like a stack then you is
+01:24
+actually a stack of trees what we do is
+01:31
+now I put these from left to right I put
+01:34
+the trees a b a c and then as soon as I
+01:40
+come across the operator what did I do I
+01:44
+pop the most recent two trees then I
+01:48
+create a new tree with a plus and I make
+01:56
+the first tree the left child the most
+01:59
+recently popped out tree the left child
+02:01
+and the previously popped out tree be
+02:06
+right child now again I have one more
+02:10
+symbol left I come across the star so I
+02:12
+pop out put these trees and I create put
+02:17
+onto the stack the star and the two pop
+02:26
+trees become Z the most recently pop
+02:30
+tree becomes the right child and
+02:31
+previously the most recently pop tree
+02:34
+becomes the left child and the
+02:36
+previously pop tree becomes the right
+02:38
+jet okay and as soon as until you get a
+02:41
+single tree which exists on the stack so
+02:45
+there's another application of binary
+02:47
+trees and stacks both of them can be
+02:49
+used quite efficiently to build what are
+02:52
+called expression trees so this is a
+02:58
+very very useful application of binary
+03:01
+trees now there another thing that we
+03:03
+always like to do when we build binary
+03:05
+trees let us take this expression tree
+03:11
+itself let us look at an expression
+03:26
+and say we have something like this then
+03:30
+what are we doing when an expression is
+03:32
+evaluate its value ated from the left so
+03:34
+let's see I have this here plus star see
+03:45
+actually you go or this from the right
+03:47
+and
+03:55
+let's say a formal expression tree I
+03:57
+know how many of you are familiar we use
+04:00
+this kind of expression parsing to do
+04:06
+this expression
+04:16
+or expression and Thomas
+04:38
+Oh
+04:42
+factor and let's say factors name as in
+04:52
+this example what is name let's say it
+04:57
+is a B suppose I use this grammar to
+05:08
+generate this expression you know
+05:10
+already done a course on compilers let's
+05:12
+see there's a completely an unambiguous
+05:14
+grammar to add up here is plus or minus
+05:28
+multiply
+05:35
+so how do we parse this given expression
+05:39
+so start from the root over here
+05:42
+expression is defined as expression add
+05:44
+operator term so I stop it
+05:46
+started over here okay plus then what do
+05:50
+we have then on the left hand side
+05:54
+another plus again at the plus then I'll
+05:59
+get a here and get star B C and star D
+06:13
+plus okay this is how you will get a
+06:19
+binary tree what have I done now all
+06:22
+this exercise that I've done is to just
+06:24
+show that an expression a harmless
+06:26
+expression that is already written like
+06:28
+this can be written as a binary tree now
+06:32
+what we'll do is we'll talk about other
+06:34
+things now we talked about traversal of
+06:37
+these trees of this tree let's see what
+06:42
+it gives us there are three types of
+06:45
+Travis's pre-order post order and in
+06:55
+order
+06:57
+okay all right now the definitions are
+07:03
+given over here how to traverse these
+07:04
+trees so preorder traversal says visit
+07:08
+the route then what do you do you visit
+07:13
+the left child in pre-order recursively
+07:15
+visit the right child in pre-order
+07:18
+recursively means what now let's take
+07:23
+the then the inorder traversal says
+07:26
+visit the left child in inorder
+07:28
+recursively visit the route visit the
+07:32
+right child in inorder recursively ok
+07:35
+then post order traversal says visit the
+07:38
+left child in post order and this is the
+07:42
+right child in first order recursively
+07:44
+visit the route okay
+07:47
+all right let's see what this gives so
+07:51
+everything has to be done recursively
+07:52
+what is the meaning of this okay let's
+07:57
+look at inorder traversal visit the left
+08:00
+child in inorder recursively okay let's
+08:07
+say I want to do this climb a cell of
+08:08
+the tree traversal means simply walking
+08:14
+around a tree okay that's the way the
+08:18
+list the notes is what changes now what
+08:22
+does it say let us look at inorder
+08:24
+traversal it says first we look at in
+08:27
+order because it will become clear to
+08:28
+you what we're doing
+08:30
+visit left child
+08:37
+recursively visit route and visit right
+08:48
+child recursively this is what your in
+08:53
+order traversal is so let's look at this
+08:56
+tree what would we do so that means I'm
+08:58
+starting from the root here and I'm
+09:01
+going to recursively keep on going down
+09:03
+to this until I reach the leaf node then
+09:08
+what do I do
+09:09
+I display the leaf node so I keep going
+09:14
+down because I have to do visit the
+09:16
+leftmost children then what happens I go
+09:19
+up okay when I visit the root I get plus
+09:23
+then again I go to the right child and
+09:26
+again after recursively do the same
+09:29
+thing that means what free order in
+09:31
+order all these are recursive traversal
+09:33
+okay so I go to the right child then
+09:37
+again I will do left child recursively
+09:40
+root then then right child and then go
+09:44
+back up then what happens here so I come
+09:47
+down this plus go down here this becomes
+09:51
+B star C okay and then what happens this
+09:59
+was node has already been visited so I
+10:01
+go back up to the root of the tree give
+10:04
+me plus then again I come to the right
+10:06
+node start again I have to do
+10:09
+recursively left child right so I do D I
+10:12
+come to the leaf node star then I have
+10:17
+to have a plus F the bracket has to come
+10:20
+because it's one level lower so in order
+10:22
+traversal essentially gives me the
+10:24
+expression back so what does it tell me
+10:27
+now when I look at the inorder traversal
+10:29
+of the tree I get the infix expression
+10:32
+of T given tree okay there's one extra
+10:36
+information that we have used here we
+10:38
+use the fact that star is done after
+10:39
+plus because it's one level lower in the
+10:42
+tree okay so get the in fixed expression
+10:46
+so let us look at what postorder
+10:49
+expression postorder traversal of the
+10:51
+tree
+10:51
+we'll give you what has post order
+10:52
+traversal say post Howard routes
+10:55
+traveler says visit left child post
+10:57
+order in post order recursively then
+11:01
+visit right child in post order
+11:03
+recursively visit route and the same
+11:05
+thing keeps on getting repeated again
+11:07
+and again so I take the left child
+11:10
+recursively visit in post order let me
+11:14
+just explain this over here let's see
+11:16
+what this will give us what does it give
+11:21
+you so I moved visit the left check I
+11:23
+can't came down there are no more leaf
+11:25
+nodes so I display it then I have to go
+11:29
+to the right chain go back right left
+11:33
+child right child and then route is what
+11:34
+it says go to the right chain then right
+11:37
+child again I have to recursively go
+11:39
+down do post order right left child
+11:42
+right child then route so what will
+11:44
+happen
+11:45
+I get ABC star then what do I get
+11:51
+now all of them have been visited I go
+11:53
+back up so left child right child then
+11:55
+route get plus here and then what
+12:01
+happens so the left child of this route
+12:03
+pre is completed now so I go to the
+12:05
+right tree over here then what do I get
+12:08
+now what do I get here now I get D then
+12:14
+again this is the left child is the leaf
+12:17
+node there's nothing else to see
+12:18
+therefore I display the leaf node then I
+12:21
+go to it's right child again I have to
+12:23
+look at post order over there therefore
+12:25
+I get EF + because II left child post
+12:30
+order right child post order root okay
+12:34
+then I put the + over here that's how it
+12:36
+comes here and then finally the star and
+12:40
+then finally the plus the last plus sign
+12:44
+that we have
+12:48
+sunny I made a mistake here this blush
+12:50
+should not be you see ABC star then I
+12:56
+have to do the right child the F Plus
+12:59
+Star Plus okay so what did we get now
+13:02
+you got ABC Star Plus correct de f
+13:10
+correct sorry trust me F plus star
+13:20
+correct okay so this is what we get as
+13:23
+the expression what is this expression
+13:25
+now there is nothing but they post fix
+13:28
+expression which all of us have already
+13:31
+been done okay when we talked about
+13:33
+stacked stacks we talked about canva
+13:37
+generating a postfix expression from an
+13:40
+infix expression so what is interesting
+13:42
+here is once it's represented as a
+13:44
+binary tree if I do inorder traversal I
+13:48
+get the in fix expression when I do post
+13:51
+order traversal I get the postfix
+13:52
+expression and obviously if I do
+13:55
+preorder traversal I will get the prefix
+13:57
+expression okay so this is also a very
+14:00
+big application of binary trees now once
+14:03
+this expression is given like this I can
+14:06
+use this stack of trees to evaluate this
+14:10
+particular expression so I hope you are
+14:13
+with me here and you have understood
+14:14
+what I have said okay so what is it that
+14:17
+we are doing notice that another way of
+14:20
+looking at these various traversals to
+14:23
+make it simpler is preorder traversal
+14:26
+can be thought of as you display the
+14:30
+node the first time you visited okay in
+14:35
+inorder traversal you display the node
+14:37
+the second time you even is visited
+14:39
+remember this I have drawn this path
+14:41
+over here which goes around the tree and
+14:44
+in postorder traversal you display the
+14:47
+node the last time you visited okay so
+14:50
+these are simple traversal schemes okay
+14:53
+so now the next question that we would
+14:55
+like to ask us suppose you are given
+15:00
+only the Travis's traversals are given
+15:13
+can we construct the tree
+15:23
+exactly okay let's look at only with
+15:28
+respect to binary trees and see if I'm
+15:31
+given the B what is it that we have your
+15:33
+two traversal stuff in order traversal
+15:35
+and we have the post order traversal we
+15:41
+can also do the preorder I encourage you
+15:43
+to do the preorder traversal of the tree
+15:45
+now given the inorder traversal can i
+15:48
+construct the tree uniquely good without
+15:51
+any other information and given the post
+15:56
+order traversal can i construct the tree
+15:57
+uniquely let's see how we will do this
+16:00
+in the next lecture

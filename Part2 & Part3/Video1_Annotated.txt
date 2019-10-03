@@ -1,0 +1,432 @@
+00:28
+Hello friends<rt>, {uh} today we are looking to finish the tenth module of our course, where we are
+00:33
+talking about the biological effect of radiation. <sp>
+00:37
+{uh} You definitely have gone through the first lecture by now<rt> and {uh} actually I am having a
+00:41
+quite a bit of gap between the time I record to the previous<rt> lecture and this one has I
+00:45
+was down<rt> a bit with fever and cough and cold.
+00:48
+And even today<rt> also my voice is quite a bit restricted hopefully I can Skype through .
+00:54
+Just to have a recap of what we have done in the previous<rt> lecture [ah] first you are introduced
+01:00
+to the different units<rt> of radiation doses that we generally use [like].
+01:05
+Just to [ah] associate with radioactivity<rt>, [you are] very early [we are associate] you were introduced
+01:13
+to the units like urieo bacral which are associate with the radioactive disintegration<ft>.
+01:18
+But when we are talking about the biological effects of radiation<rt> we have to look for new
+01:23
+units and {uh} their units like rongio red and that came into picture which are conversion
+01:30
+in one of the three arts of radiation or the SI versions<rt> of them gray and Sievert.
+01:36
+So, you are introduce to those <sp>. And also several associated factors like different
+01:42
+tissues respond differently to radiation accordingly we <sp> use some kind of tissue infector these
+01:48
+are introduced .<sp> Then<rt> you are introduced the concept of linear energy transfer, which is
+01:53
+actually some kind of {uh} potential<rt> or stopping<rt> power of a tissue against radiation . <sp> [Or against]
+02:01
+[a] as different tissues respond differently or the same<emp> tissue I can say respond differently
+02:06
+to different particle depending on their mass and energy level <sp> which is given measurement
+02:11
+above in terms of the LET . Then<rt> you have to [ah] you are introduce to different
+02:17
+sources of radiation, living being can receive radiation from <sp> infinite number of sources
+02:23
+like [we can] we are always subjected to some kind of so called background radiation which
+02:28
+inverse the cosmic radiations and <sp> the rays coming from the outside atmosphere . <sp> Also<rt>
+02:35
+there can be radiatic particle there are going interior to our body or inside our body through
+02:39
+the foods that you are taking .<sp> There can be particles which are going with air during
+02:46
+the inhalation process . {uh} And also<rt> nowadays with increase in the medical
+02:52
+equipments, <sp> there are significant fraction of [radiation] radiation<rt> being contributed by
+02:58
+different kind of medical instruments<emp> like where instruments like MRI which does not<rt>
+03:04
+require any kind of radiation dose [introduces any radiation] does not introduce any kind
+03:09
+of radiation effect . Very general or simple kind of [ah] technique like an x-ray[ah]can
+03:18
+impose radiation equivalent to 11 days of natural radiation.
+03:24
+Whereas CT scan which is again a quite common technology nowadays that just one sitting
+03:29
+of hit CT scan can lead to <sp> radiation exposure to your body which is equivalent to 365 days
+03:35
+that is one full year of natural radiation or<rt> more than 13 days of flying .
+03:41
+Of course<rt>, when you are flying or you are at higher altitude<rt> you are exposed to larger
+03:45
+amount of cosmic radiation and that is why<rt> flying also induces quite a bit of radioactive
+03:53
+effect.
+03:54
+Now, [in our] on our body, but this modern medical equipments which involves radiation <sp> like-x
+03:59
+rays or any kind of scans, they also can have significant effect<ft> and therefore, we need
+04:06
+to be very very careful before undergo any such kind of [them]<ft> .
+04:11
+Then we have discussed about the biological effects of radiation<rt> and the cellular effect
+04:15
+of radiation<ft>.
+04:16
+You have seen the cellular effects of radiation can be of two types<rt>, primarily one<emp> is the
+04:22
+indirect effect which leads to the <sp> particle radical formation <sp> as our cell primarily comprises
+04:32
+of cytoplasm<rt> and water is the main component<rt> of the cytoplasm.
+04:37
+So, the radiation generally breaks the H 2 O molecule there<rt> leading to the formation
+04:42
+of several very dangerous kind of [ah] radicals such as the <sp> peroxide the hydroxyl and also
+04:51
+so called the superoxides.
+04:52
+They all<emp> can have important effects or important detrimental<rt> effects on the cell.
+05:01
+And there can be direct effect also whether radiation can change the demorphidology<ft> or
+05:06
+the morphology of the DNA itself<ft> we shall be looking more into them in<rt> today's lecture<ft>.
+05:11
+Now, the terms for introduce in a last lecture itself, but let us [look] look a bit more into
+05:18
+this two terminologies that is what where the biological effects radiation may have<rt>
+05:22
+they are generally classified into two categories, one is stochastic, and other deterministic
+05:26
+or sometimes called the nonstochastic effect<ft>.
+05:28
+The deterministic effect<rt> generally refers to those kind of phenomenon where or which
+05:35
+appears only once a threshold dose of radiation is based<ft> that is<rt> if the radiation exposure
+05:42
+is less than the threshold, then you will not find any kind of effect or only<emp> when the
+05:47
+threshold is reached the effect becomes prominent .
+05:51
+But once you have reach the threshold<rt> increasing the dose beyond that [ah] keeps worsening the
+05:57
+effect<ft>.
+05:58
+So,[ah]the behavior can be [means] if we <sp> plot something like this, where effect on this
+06:05
+side and the dose on this side tills if this is a threshold then below<rt> this threshold you
+06:10
+will not find any kind of effect, but above the threshold<rt> effect keep some increasing
+06:14
+very very shortly . So, this is what we called the deterministic effect.<ft>
+06:20
+Deterministic effects generally are immediate effects or short-term effects .
+06:24
+{uh} Once the threshold is reached they are guaranteed to appear.
+06:29
+And also<rt> <sp> the threshold value actually depends upon {uh} the particular person or particular place
+06:37
+which is subjected to radiation because {uh} different person or in fact, the different tissues of
+06:44
+the same person have different values for this threshold<rt>.
+06:48
+And also which kind of effect is going to appear accordingly the threshold is also going
+06:53
+to vary<rt> . And any early effect as I have mentioned and most of the normal tissue late effects
+07:00
+are<rt> deterministic or non-stochastic in nature<ft>.
+07:03
+These are some typical values of the threshold corresponding to the deterministic effect<ft>
+07:09
+like [ah] generally [the] {uh} the genital organs are the most affected by the radiation.
+07:15
+And as you can see here<rt> when [they are subjected to] say the testis is subjected to a single
+07:21
+absorption dose of strength 3.5 to 6 Sievert [as be] then {uh} that is actually quite high dose
+07:29
+or<rt> a prolonged absorption of measuring to year then that will lead to a permanent infertility.
+07:39
+Ovaries even more sensitive generally the female genitalia is much more sensitive to
+07:44
+the male genitalia that is why the value is even smaller<ft> even 10<emp> times smaller to this
+07:51
+. The lens of eye that is also very very sensitive
+07:56
+to this when it is subjected to a radiation dose of something like 0.5 to 2 Sievert only,
+08:02
+it can result to a milky of lens.
+08:05
+For a scatter lock function may appear with a dose of 5 Sievert or greater than 0.15 Sievert
+08:11
+here<ft> for prolongment radiation dose.<ft>
+08:17
+And bone marrow probably is the most sensitive kind of tissue or sensitive kind of part of
+08:24
+the body related to radiation effects with a very relatively smaller radiation dose of
+08:31
+only 0.5<emp> Sievert it can lead to the blood forming deficiency.<ft>
+08:37
+[So], and also this data are quite a bit old<rt>, but still very much valid.
+08:41
+These are recommendation given by the well known ICRP<rt> that is International Commission
+08:45
+on Radiation Protections who generally says the standard for any kind of {uh} radiation based
+08:52
+guidelines<ft> . Now, putting this in {uh} comparison with stochastic effect, first stochastic effect<rt>
+08:59
+there is no such threshold dose.
+09:01
+So<rt>, stochastic effect whether that will appear or not that does not depend upon the magnitude
+09:06
+of the radiation<ft> that the object is being subjected to.<ft>
+09:11
+Rather<rt> there more likely<emp> with increasing the dose.
+09:16
+Or I can say that<rt> the the severity of the stochastic effect does not depend upon the
+09:22
+intensity of the dose<rt>, but as the dose intensifies [the] their appearance is more likely.
+09:30
+So, we cannot say that for {uh} this particular dose, this kind of stochastic effect is going
+09:37
+to appear or not.
+09:38
+But of course<rt>, they are more likely<ft> . And also there is no dose; however, stochastic
+09:45
+effect starting to occur, they may not at all appear<rt>, but also they can appear with
+09:50
+quite a small dose, because generally the effect is cumulative when someone is subject
+09:54
+to a occur small dose for a very prolong period, <sp> then the stochastic effect can appear.
+09:59
+But I repeat<rt> if the strength of the dose is more<rt>, then there more likely to appear<rt>, but
+10:05
+the severity of the diseases severity of the effect is has no relation with the strength
+10:11
+of the dose.<ft>
+10:13
+And stochastic effect actually concerns much larger<emp> or more catastrophically effects of
+10:20
+radiations such as the carcinogenesis and also the gene [genet] defects or DNA nutritions leading
+10:27
+to hereditary effects<ft> . So, stochastic effects are long term effects, and {uh} they are also quite
+10:34
+difficult to spot<rt>, whereas deterministic or non-stochastic effects are immediate effects
+10:38
+and they appear once their threshold is breached.
+10:41
+Now we need to gets some idea about the human cell cycle<emp>.
+10:45
+Each human cell undergoes quite a few difference stages of development<ft> . The first stage of
+10:53
+importance<rt> is the G 1 stage like shown in the diagram<rt> they are principally four<emp> or five
+10:59
+stages . Once the first stage is the G 1 phase<rt>, which is the growth phase<rt> or growth phase
+11:06
+one<rt> during the cell growth.
+11:09
+And at the end of G 1 phase<rt>, it is ready to replicate the DNA<rt> then is the S phase when
+11:15
+the DNA replication happens<rt>.
+11:18
+Then because to the G 2 phase where the DNA replication is already done, so they makes
+11:24
+further growth and ensures that it is ready for cell division and then the most important<rt>
+11:29
+one the mitosis<rt> during which the cell divides into two.
+11:33
+And cytokinesis actually is a follow up step of mitosis sometimes called a part of the
+11:37
+mitosis itself<rt> . And some cells may have an intermediate G naught stage as well<rt>, where
+11:45
+many human body cells may exit the cell cycle remain in a resting position or some kind
+11:52
+of neutral position for some time into some cells may remain there for a very<emp>, very long
+11:59
+time and that is referred to as a G naught phase<ft>.
+12:04
+Now<rt>, scientist have done some experiments to understand which<emp> particular phase of this
+12:11
+human cell cycle<rt> is most vulnerable to radiations<ft> . And to facilitate that what they have done<rt>
+12:19
+they have chosen[ah]different cell samples and applying some kind of sophisticated techniques,
+12:25
+they have ensured that<rt> their cell cycles are exactly following the same timings that is
+12:31
+they are perfectly synchronous with each other . Once they have developed quite a few cell
+12:35
+colonies which are perfectly synchronous with each other<rt> <sp> then different cell colonies were
+12:39
+subjected to different amounts of radiation and also in different phases of their<rt> individual
+12:45
+cell cycles<ft> . And it has been observed that a cell is the
+12:50
+most vulnerable to radiation<rt> when that is going to the mitosis process<rt> or<emp> about to go
+12:56
+through the mitosis process<ft> . When we subjected to radiation in the other phases like G 1
+13:02
+phase or S phase or early part of G 2 phase<rt>, effect of radiation is quite small<ft> , but<rt> when
+13:08
+it is going to the mitosis then only<rt> it is most vulnerable or it is about to start the
+13:13
+mitosis somewhere here<rt> then also it is very much vulnerable<ft> . And there is a reason also.
+13:21
+Like we know that inside the cell there are different kinds of components.
+13:25
+Now<rt>, if radiation effects [ah] some of the components say if it is effects a mitochondria, the mitochondria
+13:32
+may get permanently damaged, but inside a cell there can be several mitochondrion<rt> and
+13:37
+therefore<rt>, just damaging one may not [ah] affect the cell performance too much<ft>, but once the
+13:44
+radiation effects the nucleus<emp> then the radiation is definitely going to be [the] very important
+13:51
+and the cell is going to suffer, because nucleus is a main part of the cell and that is unique
+13:56
+. And<rt> the nucleus<emp> is {uh} in the most vulnerable<rt>
+14:01
+position when it is going to the mitosis.<ft>
+14:04
+This is a very rough schematic representation of cell division where both mitosis and meiosis
+14:11
+are shown.
+14:12
+Meiosis is a one during which the chromosomal exchanges happens, but [ah] that is not of our
+14:18
+interest<rt>.
+14:19
+Let us focus on mitosis only.
+14:21
+There are principally four different phases<rt>, prophase, metaphase, anaphase and telophase,
+14:25
+and sometimes also fifth follow phases cytokinesis which is more like a post processing phase.<ft>
+14:31
+During the prophase phase<rt> the chromosomes are duplicated<ft> this is where the chromosomes
+14:36
+are duplicated<rt>.
+14:38
+So, initially <sp> [if there are] <sp> if there are n pairs of chromosomes like it this is a parent
+14:48
+cell<rt> where there are in this diagram, there are four chromosomes.
+14:51
+The chromosomes are initially duplicated in the prophase phase leading to<rt> four chromosomes<ft>
+14:57
+. [And now] our four pairs of chromosomes I should say.
+15:02
+And then this chromosomes align each other along the metaphase plane during the metaphase
+15:08
+process, and then they subsequently separate out to<rt> develop to new daughter cells during
+15:15
+the anaphase getting completed during the<rt> telophase process.<ft>
+15:18
+Accordingly we get two different daughter cells which are identical to the parent cell.
+15:23
+Mitosis is the most common type of cell division that we can see and {uh} that is the one that is
+15:29
+responsible for development of our body from a single cell embryo to <sp> a fully grown [human]
+15:37
+[person] human body.<ft>
+15:39
+So,<sp> if mitosis is affected by radiation<rt> then there can be real catastrophe effect<ft> and something
+15:49
+known as cell killing.
+15:51
+Cell killing refers to<rt> reproductive date of a certain fraction of cell colonies when subjected
+15:56
+to acute radiation.<ft>
+15:58
+Like when a cell is affected by radiation<rt>, then [ah] the cell may loses reproductive power,
+16:06
+and accordingly it is terminology wise it is called the cell is being killed<ft> that is
+16:11
+cell killing<rt> or causing the reproductive death that depends and upon the level of the dose.<ft>
+16:17
+Again experiments are conducted with different cell colonies being subjecting them to <sp> different
+16:23
+levels of radiation, and then observing what fraction of that has suffered this cell killing.
+16:29
+And<rt> it has been found to be proportional to the LET again.<rt>
+16:32
+Like in case of high LET radiation<rt> it is a very, very short decline.
+16:37
+You can see it is a vertical straight line which is going down very very rapidly.
+16:43
+Here one thing of importance here is a vertical scale is a logarithmic scale<rt> and so<emp> the change
+16:48
+is extremely rapid . Whereas for low LET radiation<rt>, the change is very small particular in this
+16:54
+part, there is very little<emp> change, it is increasing only later on<ft> . So, for a high LET radiation
+17:02
+dose<rt>, the effect of [for] radiation causing the cell killing is very, very prominent.
+17:12
+And now<rt> {uh} this cell killing can be of five different types<ft> which are shown here.
+17:19
+[ah] (Refer Time: 17:21) subjective radiation can follow different kinds of roots all accessories
+17:24
+several kinds of enzymes and chemical processes.
+17:28
+One thing you have to<rt> remember here is that the <sp> while we are talking about the effect
+17:34
+of radiation on cell killing, actually all the effects are more or less chemically in
+17:38
+nature<ft> particular the indirect effect of radiation . Because<rt> a cell compresses a several kinds
+17:44
+of chemicals and {uh} as we have already seen the indirect effect of radiation is to develop
+17:51
+free radicals.<ft>
+17:52
+And once the radicals develop<rt>, then the next part is just chemistry<ft> . So, from that point
+17:57
+of view, the effect after that pre radical formation has taken place<rt> is [ah] the same as
+18:06
+with any kind of chemical poisoning.<ft>
+18:08
+So<rt>, the <sp> way the cell is going to react to a nuclear accident<rt>, <sp> and the way it is going
+18:18
+to react to some chemical accident<rt>, there may not be too much different.<ft>
+18:22
+But of course, the fact is<rt> that for a nuclear accident, the affect may be very very prolonged
+18:26
+because the radioactivity may remain in the surrounding for a few hundred<emp> years as well.
+18:32
+So, these are the five different kinds of mechanisms of cell may undergoes apoptosis<rt>,
+18:38
+necrosis<rt>, senescence<rt>, autophagy<rt> and mitotic catastrophe.<ft>
+18:45
+Apoptosis<rt> is a highly regulated mechanism of cell death.<ft>
+18:48
+Distinct cytoplasmic and nuclear morphological changes are recognizable in cells undergoing
+18:53
+apoptosis<rt>, such as shrinkage of the cell<rt>, contraction and membrane blebbing<rt>, nuclear
+18:59
+condensation<rt>, fragmentation of the DNAs<rt>, and also cell destruction into membrane-bound
+19:05
+particles.<ft>
+19:06
+So, apoptosis is the most common type of cell {uh} killing process {uh} in fact, a body to replace
+19:14
+the old cell by the new one also follows [apoptosis], apoptosis.
+19:18
+But apoptosis is the first most prominent kind of effect cell killing mechanism that
+19:24
+radiation can lead to<ft> there is an necrosis, necrosis<rt> is generally is considered as a tumor
+19:31
+cell death process<rt> that predominates after a high radiation dose treatment.<ft>
+19:36
+While at a lower dose<rt>, it has been indicated as a passive and unregulated event.<ft>
+19:41
+One thing we have to understand here the all the effect of radiation may not be bad because
+19:47
+treatment of carcinogenesis such kind of things also you makes use of high<emp> dose radiations.
+19:54
+And they are<rt> the objective radiation is to kill the affected tumor cells<ft>.
+19:57
+So, necrosis general is a primary mechanism there<rt> which leads to the cell killing.<ft>

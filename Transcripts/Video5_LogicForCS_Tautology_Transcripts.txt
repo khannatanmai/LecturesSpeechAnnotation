@@ -1,0 +1,646 @@
+00:24
+So, let us start today so I will I briefly describe Tautology Checker.
+00:31
+Which is available for you to do this for you to play around with maybe
+00:39
+it is written in ml but, besides I mean this is the only
+00:44
+peace of actual program code that I will be discussing the rest you will be writing.
+00:51
+So, it is a good idea to see how our whatever we have
+00:59
+done so far is used in this tautology checking fact.
+01:05
+So, first day of course let us look at Tautology Checking.
+01:10
+Let us go straight to this I am so say essentially, what we are interested finally
+01:18
+in question of whether a certain argument is valid.
+01:24
+That is the most important thing you have given
+01:28
+a set of admissions then, there is some conclusion you come to and you want to know whether that
+01:33
+conclusion logically follows from this from the
+01:37
+set of assumptions.
+01:39
+So of course, what typical informally striated argument something like this I
+01:48
+mean it is really of full when you stated in natural language when there are all kinds
+01:53
+of things I just read it.
+01:54
+..
+01:55
+Because, in case it is too small to read If prices rise, then the poor and the salaried
+02:00
+class will be unhappy.
+02:01
+If taxes are increased then the businessman will be unhappy.
+02:04
+If the poor and the salaried class or the businessman will be
+02:08
+unhappy the Government will not be reelected.
+02:10
+Inflation will rise if Government expenditure exceeds
+02:12
+its revenue.
+02:14
+Government expenditure will exceeds its revenue unless taxes are increased or
+02:17
+the Government resorts to deficit financing or takes a
+02:20
+loan from the IMF to the cover the deficit.
+02:23
+If the Government resorts to deficit financing then
+02:26
+inflation will rise.
+02:27
+If inflation rises, the price will also rise.
+02:31
+The Government will get reelected.
+02:33
+Therefore the Government will take a loan from the IMF.
+02:37
+I mean now if this re argument that actually came in some news paper article the
+02:45
+question or whether the conclusion is valid is from
+02:50
+whatever assumptions that the author has made is extremely difficult to find them in.
+02:58
+So, to prove the validity or the invalidity of this argument and the conclusion is actually
+03:03
+very hard.
+03:06
+Of course, what there are something this written in natural language which means that
+03:12
+firstly one has to sort of clean up ambiguity.
+03:15
+So, one and so forth and may be one have reward it
+03:20
+retranslated to some more sensible logical forms so that the ambiguities of language
+03:28
+are eliminated that is one thing.
+03:31
+So this is an common problem with all natural language kind of
+03:35
+arguments fact.
+03:38
+..
+03:39
+So, the other thing is in order to know whether it is valid.
+03:45
+Basically what we are asking is whether this last statement therefore the
+03:50
+government will take a loan from the IMF follows from
+03:55
+all these other states all of them are decelerated in nature of course.
+04:01
+And say essentially what we are asking is whether the last statement is
+04:07
+a logical consequence of the previous statements.
+04:12
+.
+04:13
+.And for Logical Consequence we have a huge numbers of different possibilities.
+04:21
+One of course is that one is that by definition you are
+04:26
+basically looking at a world in which all the hypotheses
+04:29
+are true.
+04:31
+And then, you are asking whether in that world it is always guaranteed that the
+04:36
+conclusion would also be true that is what the definition says.
+04:41
+.
+04:42
+The other possibilities is of course, to use one of these other theorem that we have got.
+04:48
+One is to take all the hypotheses and take their conjunction
+04:52
+and see whether conditional to the conclusion whether you what you get is a tautology.
+04:57
+So, that is where for checking validly of arguments.
+05:01
+You can use the version of a tautology at least proposition arguments it is not necessarily
+05:06
+true for other kinds of argument.
+05:09
+So, for propositional arguments you just asking whether this the
+05:13
+conjunction of the hypotheses logically implies the conclusion also this being the tautology
+05:19
+is equivalent to same like this logically implies
+05:24
+the conclusion.
+05:26
+..
+05:27
+There is of course, other means for example this theorems tell us other way.
+05:32
+One thing is to actually look at this whole thing conditionally
+05:38
+just conditionally and check whether this is a valid
+05:44
+formula.
+05:45
+This is also question of checking whether this is tautology.
+05:50
+And other possibilities is to actually take the negation of the conclusion
+05:54
+along with the conjunction of the hypotheses and
+05:57
+check whether you have a contradiction.
+05:58
+I mean so these are essentially three different ways in
+06:01
+which most checkers and a provers it works right.
+06:08
+So, what we will do is we will take a previous one namely this and we will use this us in
+06:16
+order to as a principle way of designing a tool.
+06:25
+So, this is using a essential theorem.
+06:33
+So you have one possibilities will of course is to use truth
+06:36
+table right one.
+06:38
+I mean just construct a massive truth table ladder check for validity I mean check
+06:43
+all the some.
+06:45
+But, what happens is an but the other problem is not it is just enough to say that this
+06:51
+argument is if it is valid of course it is enough to say whether it is valid.
+06:55
+But, if it is not valid it is not enough to say that it is not valid.
+07:02
+See if it is not valid that means you have to provide a
+07:06
+scenario in which all the hypotheses are true and the conclusion is false.
+07:14
+So, which means what we need to do is in order I have complete
+07:20
+checker would actually give a falsifying assignment in
+07:24
+case the argument is invalid.
+07:27
+So, that is an important aspect an in fact this is an aspect that is
+07:32
+normally not address that theorem provers proof here.
+07:37
+But, there is another field of computer science which is getting to be very popular
+07:46
+now and that is the notion of module checking.
+07:49
+So, in that area of model checking when you have
+07:52
+some logical statement if it is not true then, you have
+07:56
+.to provide a counter exam.
+07:59
+In the case of propositional logic what we are asking is of falsifying
+08:03
+assignments so it is the equivalent.
+08:05
+So, what we are doing in our proctology checking is to
+08:09
+provide the equivalent of a model checking mechanism.
+08:12
+So, if it is true it will definitely verify it.
+08:16
+And but if it is false then it has to provide a falsifying it
+08:20
+has to provide a counter example or a falsifying assignment or some other proof that it is
+08:27
+indeed false and that proof is something that it
+08:30
+should be able to check.
+08:32
+So, in this particular case we are looking for a essential or falsifying assignment
+08:37
+which will make the argument in which will show that the really the argument is invalid
+08:43
+right.
+08:46
+So, one thing of course you said that you have
+08:51
+to as I said clean up the argument and translate it into an argument involving only the
+08:59
+propositional connecters.
+09:01
+Which, also means you have to identify what are known as the atoms
+09:06
+in the arguments.
+09:07
+What are the atomic proposition which can be taken for granted which can be
+09:12
+which do not have to be split any more.
+09:15
+So, you have to split sentences into terms of the
+09:18
+propositional connectives like and or if than or not and you have to actually identify atomic
+09:26
+statements whose truth value could be anything so and since you are looking for validity.
+09:33
+.
+09:34
+..
+09:35
+So, one thing I of course that part of that cleaning up is to essentially identify the
+09:39
+atoms in the argument.
+09:40
+So, here is a simple identification.
+09:42
+So, we have got so many atoms which are which are so I will use essentially strings taken
+09:53
+from the argument as atomic statement.
+09:57
+Which, cannot be split further into sub statement in fact
+10:01
+these are the atoms in the arguments identified in some
+10:05
+way and we already see that there are nine atoms.
+10:09
+So, your truth table is going to be quite ignominious it is going to have 512 rows.
+10:16
+And of course, dip I do not know since there are
+10:21
+compound propositions.
+10:24
+There going to be that many columns his so is this gone be a huge truth
+10:34
+table consisting of about few thousands cells.
+10:39
+Now, the point is not actually necessary to construct the entire truth table.
+10:46
+That is that one thing.
+10:49
+So therefore, of course non other aurgatharance that we are going to design
+10:54
+is anyway going to be less than exponential.
+10:56
+That is it is going to be a bottom line but, that is
+11:00
+not what we are saying.
+11:01
+But, in practice what we are saying is so a firstly it is not necessary
+11:06
+to consider construct the entire truth table.
+11:08
+So, it is only necessary to consider possible falsifiers and if there are no falsifier essentially
+11:16
+the argument is valid.
+11:19
+So it is possible to due tautology checking in some more discipline fashion
+11:25
+and that is what we have to look at fact.
+11:31
+..
+11:32
+And as for this basic Representation is concern.
+11:34
+We represent proposition as abstract and tax trees using standard data type or recursive
+11:41
+data type definition.
+11:43
+Which, is essentially a reflection of the grammar which was used for the design
+11:53
+of abstract and tax trees.
+11:55
+So, as there is so atom of string and after that rest are all connectives.
+12:03
+Which, with obvious meanings that we can attribute to them NOT as vacation AND is and an OR is
+12:11
+or impish conditional and EQL really foundering as we came to a bar of something fact.
+12:23
+So, this is our we can this is as a standard representation
+12:32
+this way what I am going to what I do not need to worry about initial aspects of scanning
+12:37
+and parsing whatever the argument.
+12:42
+We just have representation in terms of this data type and that is
+12:47
+directly gives you abstract and tax trees correct.
+12:52
+So, essentially the proposition will be form from these atoms.
+13:00
+..
+13:01
+And so if Propositional Rendering without going into the other kind aspirates of the
+13:07
+translation essentially gives you sequence of hypotheses
+13:13
+like this.
+13:14
+So, there are eight hypotheses and these are the compound propositions.
+13:19
+So, if you look at sub proposition sub formally that these eight a
+13:26
+hypotheses have the conclusion seems to be it is just an atomic one.
+13:32
+But, if you look at all the sub formula that you have any truth table
+13:37
+construction will require columns for each of the sub
+13:40
+formularies.
+13:41
+And so that is how you build up truth values of the full formula.
+13:48
+So if, I look at all those sub formula then essentially what you
+13:51
+have is something like we had nine atoms may be
+13:55
+something like twelve or thirteen different kinds of sub formula.
+14:05
+Because, this one this hypotheses five for example has four sub formula.
+14:12
+At least because there are four operated there this thing has hypotheses
+14:16
+three has three sub formulas at least.
+14:19
+And so any truth table construction would actually have
+14:23
+your 512 rows for this.
+14:27
+And multiply by 13 or 14 columns with a before and then after that
+14:36
+you will require some or problems.
+14:37
+Because, what you going to do is you will have to take their
+14:41
+conjunction of all these hypotheses and the conclusion.
+14:44
+So, that might be 15 or 16 columns.
+14:47
+And then essentially find the truth value of the argument that
+14:53
+can be quite huge.
+14:54
+So, it be a few thousand cells we do not want to do that we want to do more
+15:03
+so to speak logical detective way of doing tautology checking all right.
+15:11
+..
+15:12
+So, essentially we need to show that this one was not come out right this so an argument
+15:19
+as far as I am concerned a list of hypotheses is a list
+15:22
+of hypotheses and a conclusion here.
+15:25
+So, it is an ordered pair of list of hypotheses and a conclusion
+15:29
+where both the list is a list of proposition and
+15:32
+the conclusion is also a proposition.
+15:35
+So, essentially what we are going to do is we going to do an
+15:38
+argument is a big and the all the hypotheses where edge is a the set of a list of hypotheses
+15:45
+and a essentially we are saying that you take the
+15:48
+conjunction of the hypotheses and show that the
+15:52
+implication show that this conjunction implies the conclusion.
+15:58
+So, I can so there is a so I can define function called which does it big AND what we are going
+16:06
+to do is.
+16:07
+So, you take this so essentially there are of course trowel cases where you might just
+16:15
+have a conclusion.
+16:16
+I mean that is a trowels case of just claiming that some proposition is at
+16:20
+tautology.
+16:21
+So, this is what so I would and an argument is valid provided you take this implication
+16:31
+and prove that it is a tautology.
+16:34
+Of course, the result of checking whether its tautology is just
+16:38
+going to be a true or false result and that is not sufficient.
+16:41
+If, it is false then we also requires previous falsification so here is the function
+16:47
+to falsify an argument.
+16:49
+Which, essentially checks whether the conjuctal normal form of this
+17:00
+entire proposition big and of H implies P whether that
+17:07
+conjunct to normal form can be falsify.
+17:11
+So, this is one possible strategy and not necessarily the
+17:17
+best strategy this is one possible strategy here and this is the strategy that I have
+17:23
+adopted.
+17:24
+.If, there is a problem here the big and gives me conjunctive normal forms very easily.
+17:31
+But, the fact that the big AND has to implies something
+17:37
+essentially means when, I replace the implicate the arrow or then I will get a negation of
+17:45
+the big AND.
+17:46
+Which, will be a big OR and then if I have to take the conjuctal normal form of
+17:55
+that essentially that formula will explore it.
+17:59
+Because, I will have to distribute the or I had to push
+18:05
+it down in order to get the conjunctly normal form.
+18:09
+But, any way we going to do that.
+18:14
+So, actual Checking of Tautology therefore reduces to I can
+18:21
+get rid of that tautology function.
+18:23
+And just look at falsification because, any way I have to do
+18:27
+falsification if there is going to be any proof.
+18:30
+.
+18:31
+So, what do I do.
+18:33
+I take entire argument represented as a proposition and I take a conjuctal
+18:40
+normal form and check whether I can falsify it.
+18:46
+And if, I can falsified then it is that itself gives
+18:53
+me of falsifying assignment.
+18:56
+An assignment which will give me a truth assignment for the
+19:00
+individual atoms which ensures from which I know that argument is invalid and that can
+19:08
+be checked.
+19:09
+For example manually if you like if, you have enough time.
+19:13
+So, if the result of falsification is an empty list that means
+19:20
+there is no possible falsification therefore its tautology.
+19:24
+So, this is the way which proctology checks all words.
+19:34
+So, falsification is an important aspect is not just checking validity of architecture
+19:41
+and I use the falsification in order to determine various
+19:44
+some tautologies in fact.
+19:48
+..
+19:49
+So, one thing of course Computing this CNF taking any propositional logic taking any
+19:56
+element of that data type of opposition basically
+20:00
+we have to defined rewrite rules.
+20:02
+One is of course pushing down negation and when you push down
+20:06
+negation then yours or’s an ands get inverted.
+20:09
+But, before that what you need to do is to Rewrite all the implication an equivalences
+20:14
+rewrite implication in equivalences in terms of and
+20:17
+or’s and not’s and after that you just push down or all
+20:21
+the negation so that you get at the bottom of the tree only liters.
+20:29
+And there is no negation after worse about so, there is a front gear of negation
+20:33
+which gets created and above it since there are
+20:38
+no other operated they can only be ands and or’s.
+20:41
+And of course, what you can do is once you distributes all though or’s over the ands
+20:46
+you get a stratified formula something like what I said.
+20:52
+We would get a essentially satisfied formula like this.
+21:00
+..
+21:01
+And what the big AND does it actually flatance this street to a list of literance.
+21:20
+So, this big AND essentially just flatance this tree into a
+21:28
+list of literance.
+21:29
+So now, I am essentially dealing with lists of literance.
+21:34
+So, the list of literance means basically that you have a list of conjuncts and each
+21:48
+conjuncts is a list of is a disjunction of literance.
+21:55
+And so you have a list of literance and you have
+21:59
+to look at those literance in that way.
+22:02
+So, this is so when you do all this so you will get a
+22:05
+essentially this list.
+22:06
+So, how do you do falsification?
+22:08
+So, essentially what we are so the whole idea now of the tautology checker has moved
+22:15
+from actually determining whether it is a formulized tautology to just checking whether
+22:21
+it can be falsified.
+22:23
+So, falsification is important.
+22:26
+..
+22:27
+And basically if it cannot be falsified then it is tautology.
+22:29
+So, one thing is true so you have a CNF and in order to falsify a CNF it suffices
+22:39
+to find just on conjunct in this CNF which is false.
+22:43
+So, it seems it is a conjunction of essentially disjunctions
+22:50
+its posses it is necessary to find just one of
+22:52
+those to be false.
+22:54
+Now, when is a disjunct false that is where the complication comes at disjunct
+23:00
+it false if an only if it does not have what is non as complementary pair.
+23:08
+So, if it contains a complementary pair that means, if it contain
+23:14
+both the positive for some atom P it contains both P
+23:18
+and not P. Then, the disjunction of P and not P is any way true so that disjunct never
+23:24
+be false.
+23:25
+However, if there disjunct consist of just completely disjoint literence with no common
+23:32
+atoms for all the atoms in all the literals are unique.
+23:36
+Then, it is possible to falsified by setting all those literals false which means the positive
+23:43
+atoms you said them to false and the negative atoms
+23:45
+you said them to true.
+23:47
+So, then you can this of course the only way disjunction can be falsified
+23:52
+is all the litereance in the disjunction are false.
+23:56
+And the way to do that is to ensure that so if so now, the problem therefore just reduce
+24:02
+its so then it can be falsified.
+24:04
+But, we do not need to actually do that it is just enough to check whether there
+24:07
+is a complementary pair or not.
+24:09
+If, there is not complementary pair then it can be falsified and
+24:12
+therefore there is no problem.
+24:16
+So, this is what so you take this literals in any disjunct.
+24:22
+So, let say take a disjunct Di and just patrician it into
+24:31
+the positive and the negative literance.
+24:33
+So, in fact once you have patrician it you can even remove
+24:37
+the negation sign from the literance so you patrician it
+24:40
+.into two set of atoms.
+24:42
+One set of atoms is Pi and the other set of atoms is Ni and all you check is
+24:47
+whether they have is any common element in it.
+24:51
+So, what I am saying is it so the so this is what
+24:54
+actually tautology checkers does.
+24:57
+So now, the falsification of the CNF reduces essentially to just
+25:06
+checking whether there are common elements into list.

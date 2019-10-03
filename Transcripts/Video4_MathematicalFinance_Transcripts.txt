@@ -1,0 +1,438 @@
+00:19
+In our last two sessions, we were discussing about CVP or BEP analysis.
+00:29
+I hope you have understood the basic concepts now relating to first about variable cost,
+00:37
+fixed cost, then the contribution margin, and then about the calculation of BEP.
+00:45
+We will just have a look at what is PV ratio, because it is a very important calculation
+00:53
+for any business, for any product or for any particular plan.
+00:59
+So, this is a relationship between the profit margin or a contribution margin as a percentage
+01:08
+to revenue.
+01:09
+So, we relate the sales price to variable cost, we get the contribution margin, and
+01:19
+we divide it by selling price.
+01:21
+So, we known as a percentage suppose your sale of 10 lakhs, what is a gross margin or
+01:29
+what is a contribute margin you are earning that is the PV ratio.
+01:34
+If sales go up from 10 lakhs to 11 lakhs, on the extra 1 lakh of sales, what is the
+01:42
+extra profit which you will earn that you get from PV ratio or contribution margin ratio.
+01:51
+Now, the calculation is done like this.
+01:55
+The basic formula was profit is equal to sales minus total cost, but we divide the total
+02:01
+cost into variable and fixed.
+02:04
+And the contribution margin is a comparison between revenue and variable costs.
+02:11
+To calculate the profit now sales minus variable cost you get contribution.
+02:19
+From contribution we can deduct fixed cost to know the profit.
+02:24
+Now, the upper part that is from sales variable cost and contribution can be converted on
+02:31
+per unit basis, because all these three components change as the number of units or the level
+02:37
+of activity changes . Now, this formula for profit is like this
+02:43
+now S minus V into Q is minus FC is profit, or you can use it to calculate Q that is projected
+02:54
+quantity or the target quantity for certain level of profit.
+02:59
+So, now, FC plus expected profit is in the numerator divided by S minus VC getting it?
+03:09
+Then we also discuss the BEP analysis, I am just keeping its uses etcetera.
+03:17
+We will go to formulae.
+03:23
+Now, for calculating BEP in unit terms, our target is to earn fixed cost.
+03:33
+So, fixed cost is kept in the numerator, we divide it by contribution per unit.
+03:41
+If you want to make a short form you can say FC upon quantity per unit, always keep in
+03:47
+mind that fixed cost is not per unit, fixed cost is in total.
+03:52
+There is no sense to have fixed cost on a unit basis; it is a total fixed cost to be
+03:58
+recovered from certain number of units.
+04:01
+So, we divide it by contribution per unit, so that we know that how many units you need
+04:08
+to sell to recover that much of fixed cost which is nothing but a break even.
+04:14
+Now, many times it is difficult to have per unit data of contribution . So, instead of
+04:22
+contribution per unit, we divide it by PV ratio formula.
+04:26
+Now, what is the formula of PV ratio it is contribution upon sales.
+04:31
+So, as a percentage what is our margin is our PV ratio we divide fixed cost by PV ratio
+04:38
+to get BEP in sales value.
+04:44
+Now, this is the CVP - cost volume profit graph, it is also called as breakeven chart.
+04:56
+Have a look at it carefully, it is very important and I think all concepts will become clear.
+05:01
+If you just look at it for few seconds, getting it.
+05:07
+So, you have got fixed cost which is a horizontal line not starting from 0, starting from certain
+05:14
+level about 1 lakh in this example.
+05:18
+Then from there itself emerges a line going up which is a total cost line, because total
+05:27
+cost is never 0, it is 0 at 0 units it is equal to fixed cost, and then its slowly goes
+05:34
+up in the proportion in which variable costs are increasing .
+05:40
+Then this red line is known as total sales sometimes called as TR or other the total
+05:46
+revenue line, it starts with 0 and it goes up at a particular point it crosses the TC
+05:55
+or the other total cost line.
+05:58
+This point is nothing but breakeven point, because at this point you are able to cover
+06:06
+all your costs and earn more revenue than your cost.
+06:12
+Every company always wants to above this level of sales.
+06:16
+Below this level is what is known as loss area, because now your costs are more than
+06:25
+sales.
+06:26
+Above this level, your sales are more than costs.
+06:30
+So, you are in the profit area.
+06:33
+Once you cross breakeven every extra contribution you earn is all your profit because fixed
+06:41
+costs are now covered . So, as the number of units increased, the profit area can go
+06:47
+on increasing and increasing, but the loss area is actually limited maximum loss is equal
+06:54
+to fixed cost at zero point, because fixed cost are the costs which we incur irrespective
+07:01
+of sales.
+07:02
+So, at zero you have incurred all your fixed costs the revenue is 0.
+07:08
+So, fixed cost is a maximum loss from there the loss goes on decreasing it comes to 0
+07:15
+at breakeven point; and above this you have got profit that is why BEP is a very interesting
+07:22
+and important calculation for most of the companies or for plants, because they want
+07:27
+to at least break even getting it.
+07:31
+Then we had discussed one illustration.
+07:34
+Now, taking from this we will take or we will discuss one more concept I hope you remember
+07:43
+this illustration.
+07:45
+Now, suppose just have a look at this illustration once again.
+07:51
+Their estimated sales were given as 12000 bikes at which level they had earned a profit
+08:01
+of 5 lakhs.
+08:04
+Now, based on these there is a concept called as MOS or margin of safety.
+08:13
+We know that company at 12000 units is above breakeven point how much above it is is nothing
+08:24
+but margin of safety.
+08:26
+So, we had calculated breakeven point to be in terms of units at 11400.
+08:35
+The estimated sales are 12000, that means, 12 minus 11400, 600 bikes more than breakeven
+08:44
+that is called as margin of safety in units.
+08:48
+It can also be calculated in sales terms or it can be calculated as a percentage . So,
+08:55
+you are able to sell 12000 units; that means, you have a margin of 600.
+09:03
+So, 600 upon 12000 this how MOS is is calculated as a percentage.
+09:08
+I will just show you the formula.
+09:14
+Getting it?
+09:15
+Margin of safety is equal to actual sales minus breakeven sales either in units you
+09:22
+can do or you can in rupees you can do.
+09:25
+Another way of showing it is MOS as a percentage sales minus BEP that is your MOS is in bracket
+09:34
+divided by actual sales.
+09:38
+Just keep in mind that do not divide it by BEP some students mistake they calculator
+09:44
+MOS divide it by BEP that will also give you some answer, but that is not a margin of safety
+09:50
+as a percentage getting it.
+09:53
+Now, this represents the safety available to business at current level of sales because
+09:59
+everybody wants to avoid losses . So, to avoid losses, you are above certain level of sales
+10:06
+how much you are above is the margin of safety.
+10:09
+Now, let us try to do one simple illustration .
+10:18
+So, Prabha Devi Ornaments, they have sales of 5000 units, sale price is 50, variable
+10:27
+cost is 30, fixed cost is 35000.
+10:32
+Now, compute BEP quantity amount as well as MOS as a percentage . So, do this calculation
+10:43
+. So, how will you proceed?
+10:49
+Firstly, you have to compare 50 and 30 because that is a primary profit you are earning.
+10:59
+What that is known as 50 minus 30, I hope you remember that is called as a contribution
+11:06
+per unit . So, one calculation you will do in the beginning is compute the contribution
+11:13
+per unit.
+11:14
+So, one unit you sell gives you 20 rupees.
+11:19
+How much you have to earn minimum, minimum you have to earn enough to cover your 35000
+11:27
+because that is your fixed cost.
+11:29
+So, 35000 upon 20 is a BEP quantity.
+11:34
+You can convert the quantity into amount by multiplying it by 50 or you divide this 35000
+11:44
+by PV ratio.
+11:45
+So, how much is PV ratio 50 minus 30, 20 is a contribution divided by 50, 20 by 50.
+11:56
+So, 40 percent is a PV ratio . Now, if you divide fixed cost by 40 percent you will get
+12:07
+BEP amount.
+12:09
+Now, having calculated quantity and amount go for calculation of MOS.
+12:16
+I will show you the calculations.
+12:21
+I hope it is clear to you 35000 divided by 20, that means, 1750 units is a breakeven
+12:33
+point.
+12:34
+You need to sell 1750 units to recover 35000.
+12:41
+Now, in terms of sales value you will have to first calculate PV ratio which is 20 by
+12:48
+50; that means, 40 percent 35000 by 40 percent gives you 87500 rupees that is BEP in terms
+12:59
+of rupees.
+13:00
+So, first two calculations we have done.
+13:03
+Now, next is MOS they have given a sales of 5000.
+13:07
+So, compute MOS percentage.
+13:09
+Now, 5000 is their sales level and what you require is only 1750.
+13:18
+So, difference between 5000 minus 1750 is their MOS, and then convert it into percentage
+13:25
+ok.
+13:27
+So, margin of safety 5000 minus 1750 divided by their current sales of which is 5000.
+13:36
+So, you get 65 percent.
+13:41
+What it means is suppose their sale of 5000 starts falling let us say by 10 percent, 20
+13:47
+percent, 30 percent, 40 percent, they are still not in losses.
+13:50
+They will have to worry because sales are dropping, but it can go up to 65 percent before
+14:00
+which they will not go in losses, that is why they have a margin of safety of 65 percent.
+14:09
+Are you getting me?
+14:10
+So, these were the simple illustrations.
+14:13
+Now, let us go to the cases which have been shared with you.
+14:19
+I hope you have got the printout.
+14:21
+If not please take the printout, you can stop this video here, take the printout and let
+14:27
+us try to solve those cases together ok.
+14:33
+So, you have been shared with five cases.
+14:37
+Let us go one by one.
+14:40
+Let us start with Ganesh . So, Ganesh limited is selling three products in brand names A,
+14:49
+B and C. And these are the details of their cost structures.
+14:55
+So, you know the direct material labour and variable overheads which is 8, 8, 9 for product
+15:02
+a selling price is 35, same way for B and C. The monthly fixed cost is 480000.
+15:13
+Now, they have given the sales volume for 2 months July and August.
+15:19
+So, two sales mixes of given in July it is same 20, 20 and 20000 for A, B, C. And in
+15:28
+August, it is something different.
+15:31
+Now, we have to do two things first find the monthly profits.
+15:38
+So, for both the months July and August, calculate the profits of the company.
+15:45
+And if your calculations bring out that higher profit are earned in the month of lower volume
+15:53
+kindly justify.
+15:54
+So, think over why why it is possible, is it possible, that lesser sales and more profits
+16:01
+. And second in part B, if sales mix of each
+16:06
+month is considered as two sales mixes say mix X 1 and mix X 2, compute the breakeven
+16:13
+point for each mix and which of the two mix do you recommend.
+16:18
+So, these two months are treated as two sales plans, and then we have to calculate which
+16:28
+plan do you recommend . Ok, I hope you are getting it.
+16:33
+So, now, how will you go ahead, just think over.
+16:41
+I think most of you know by now that the first step is calculating the contribution per unit.
+16:48
+We know sales price; we know the variable costs.
+16:52
+So, compute the contribution . Based on contribution you can also compute the PV ratio for all
+16:59
+the three products . Now, you know the number of units sold in the month of July .
+17:06
+So, contribution per number of units will give you total contribution for July and for
+17:15
+August separately, from that deduct the fixed costs.
+17:20
+Contribution minus fixed costs gives you the proper in part a we have been asked to calculate
+17:27
+monthly profits, so that is the first thing you do it.
+17:33
+And then we will discuss as to which month has more profits you can just see that in
+17:40
+the month of July their total sales are 20 plus 20 plus 20 means 60000.
+17:47
+And in the month of August their sales have slightly gone down . So, let us see which
+17:53
+month gives you more profits ok . So, I am trying to show it in the excel . But
+18:01
+you try to do it in your own note book.
+18:05
+These are the 3 months . Firstly, make a statement of contribution, and for PV ratio . So, please
+18:14
+make four columns particulars A, B, C.
+18:19
+We start with sale price which is 36, 55 and 58 from that deduct variable cost per unit
+18:36
+for each of the three products . I hope you are doing it with me . So, please write down
+18:52
+the elements of variable cost, which is the DM, DL and variable overheads, which gives
+18:59
+us variable cost per unit . So, you have got 8, 8 and 9.
+19:11
+So, take these figures here . Fine, you are getting it?
+19:25
+So, 8 plus 8 plus 9 means variable cost per unit is 25.
+19:32
+Selling price is 36, variable cost is 25, so contribution per unit is 11.
+19:41
+So, from one unit of a company is able to make contribution margin of 11.
+19:51
+And as a percentage it is 0.306.
+19:55
+So, 11 upon 36 will give you this ratio known as PV ratio .
+20:05
+Now, in the same manner, take the data for product B which is 14, 8 and 20, please compute
+20:21
+the variable costs the total variable cost contribution and PV ratio . So, how much have
+20:30
+you got, are you getting a contribution of 12?
+20:48
+Just have a look at the solution total VC is 42, 54 minus 42 means twelve rupees is
+20:56
+a contribution and PV ratio is 0.22 got it.
+21:06
+Now, do it for product C. I think I do not have to show the solution.
+21:18
+You can do it for C.
+21:32
+Are you getting contribution of 4 rupees?
+21:38
+And 0.06 is the PV ratio . Please keep in mind for any case involving CVP analysis of
+21:52
+marginal costing the starting point will be calculation of contribution per unit . Sometimes
+22:02
+you know for unit, if you do not know you calculate the PV ratio for that type of units
+22:08
+or for that line of activity, what is a margin companies able to earn, this calculation is
+22:16
+a starting point.
+22:17
+This is the first compulsory calculation.
+22:22
+Now, based on this let us make the calculation of monthly profits.
+22:31
+So, please make a profitability statement for July now.
+22:39
+We know the selling price; we know the number of units.
+22:45
+So, you can easily calculate the sales.
+22:51
+You know the contribution per unit also from the contribution chart.
+22:57
+Apply those data and calculate the profit from each of the three products that will
+23:05
+become the total profit for the month of July . Are you able to do it?
+23:15
+. So, 11 is a profit or contribution per unit
+23:20
+into 20000 that means, 2 lakh sorry 20yeah 220000 is a contribution . Now, there is no
+23:36
+point in deducting fixed cost because you do not know separately fixed cost for A, but
+23:43
+if you complete it for the whole company so 220 here, 440 for B, and 80000 for C that
+23:58
+means for a company as a whole, they are able to earn a contribution of 540000 from a sale
+24:11
+of 2960000.
+24:14
+From this deduct fixed cost of 480000, now 540 minus 480, you get a profit of 60000.
+24:28
+Are you getting it?
+24:33
+Ok, I hope you have calculated the profit for July.
+24:38
+Now continue the same process calculate the profitability for August.
+24:46
+Again you know the selling price and contribution actually you do not have to calculate the
+24:55
+total sales, they do not play much role.
+24:58
+What we really want is called total contribution and deduct it from fixed cost fixed cost is
+25:05
+not going to change.

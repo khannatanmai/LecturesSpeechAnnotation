@@ -1,0 +1,646 @@
+00:24
+{Okay} [So], let us start<emp> <sp> today {uh} so [I will] I briefly describe {uh} Tautology Checker.
+00:31
+{uh} Which is available for you to do this {uh} for you to play around with maybe<rt>
+00:39
+it is {uh} written in ml<rt> {uh} but, [besides I mean] this is the only
+00:44
+peace of <sp> actual program code that I<emp> will be discussing the rest you will be writing<ft>.
+00:51
+[So,] {So} it is a good idea to see how <sp> {uh} our whatever we have
+00:59
+done so far <sp> is used in this {uh} tautology checking fact. <sp>
+01:05
+{Right} [So,] first day of course let us look at <sp> Tautology Checking.
+01:10
+Let us go straight to this<rt> [I am so] <sp> say essentially, what we are interested <sp> finally {uh} 
+01:18
+in question of <sp> whether a certain argument is valid<ft>.
+01:24
+That is the most important thing<rt> you have given
+01:28
+a set of admissions<rt> then, there is some conclusion you come to<rt> and you want to know whether that
+01:33
+conclusion <sp> logically follows [from this] {uh}  from the
+01:37
+set of assumptions<ft>. <sp>
+01:39
+So of course, {uh} [what] typical informally striated argument something like this I
+01:48
+mean it is <sp> really of full when you stated in natural language<rt> when there are all kinds
+01:53
+of things I just read it.
+01:54
+..
+01:55
+Because, in case it is too small to read If prices rise, then the poor and the salaried
+02:00
+class will be unhappy.
+02:01
+If taxes are increased then the businessman will be unhappy.
+02:04
+If the poor and the salaried class <sp> or the businessman will be
+02:08
+unhappy the Government will not be reelected. <sp>
+02:10
+Inflation will rise if Government expenditure exceeds
+02:12
+its revenue.
+02:14
+Government expenditure will exceeds its revenue unless taxes are increased or
+02:17
+the Government resorts to deficit financing or takes a
+02:20
+loan from the IMF to the cover the deficit. <sp>
+02:23
+If the Government resorts to deficit financing then
+02:26
+inflation will rise. <sp>
+02:27
+If inflation rises, the price will also rise. <sp>
+02:31
+The Government will get reelected. <sp>
+02:33
+Therefore the Government will take a loan from the IMF<ft>. {Right}
+02:37
+[I mean now] if this re argument that actually came in some news paper article<rt> the
+02:45
+question or whether the conclusion is valid <sp> [is] from
+02:50
+whatever assumptions that <sp> the author has made<rt> is extremely difficult to find them<ft> [in.]
+02:58
+[So], to prove the validity or the invalidity of this argument and the conclusion<rt> is actually
+03:03
+very hard<ft>. <sp>
+03:06
+Of course,<rt> [what] [there are something] this written in natural language <sp> which means that
+03:12
+firstly<rt> one has to sort of clean up <sp> ambiguity.
+03:15
+So, one and so forth and may be one have reward<emp> it {uh} 
+03:20
+retranslated to {uh} some <sp> more sensible logical<emp> forms so that the ambiguities of language
+03:28
+are <sp> eliminated that is one thing.
+03:31
+{So this} So this is an common problem with all natural language kind of
+03:35
+arguments<ft> fact. {Yeah Right So} <lp>
+03:38
+..
+03:39
+So, the other thing is in order to know whether it is valid.<rt> <sp>
+03:45
+Basically what we are asking is <sp> whether this last<emp> statement therefore the
+03:50
+government will take a loan from the IMF <sp> follows from
+03:55
+all these other states<ft> {yeah} all of them are decelerated in nature of course<rt>.
+04:01
+And<rt> <sp> say essentially what we are asking is whether the last statement is
+04:07
+a logical consequence <sp> of the previous statements<ft>.
+04:12
+.
+04:13
+.And for Logical Consequence<rt> we have a huge numbers of different <sp> possibilities.
+04:21
+[One of course is that] one is that <sp> by definition you <sp> are
+04:26
+basically looking at a world in which all the hypotheses
+04:29
+are true<rt>. <sp>
+04:31
+And then, you are asking whether in that world <sp> it is always guaranteed<emp> that the
+04:36
+conclusion would also be true<ft> that is what the definition says. <sp>
+04:41
+.
+04:42
+The other possibilities is of course, to use one of these <sp> other theorem that we have got<rt>. <sp>
+04:48
+One is to take all the hypotheses <sp> and take their conjunction <sp>
+04:52
+and see whether conditional to the conclusion whether you what you get is a tautology<ft>.
+04:57
+So, that is where for checking validly of arguments.
+05:01
+You can use the version of a tautology<ft> at least proposition arguments<ft> <sp> it is not necessarily
+05:06
+true<rt> for other kinds of argument<rt>.
+05:09
+So, for propositional arguments<rt> you just asking whether this<emp> the
+05:13
+conjunction of the hypotheses <sp> logically implies the conclusion<ft> also this being the tautology
+05:19
+is equivalent to same like this logically implies
+05:24
+the conclusion<ft>. <sp>
+05:26
+..
+05:27
+There is of course, other means<rt> {uh} for example this theorems tell us other way.
+05:32
+One thing is to actually look at this whole thing conditionally {right}
+05:38
+just conditionally <sp> and check<emp> whether this is a valid
+05:44
+formula<ft>.
+05:45
+{uh} This is also question of checking whether this<emp> is tautology<rt>.
+05:50
+{uh} And other possibilities is to actually take the negation of the conclusion<rt> <sp>
+05:54
+along with the conjunction of the hypotheses<rt> and
+05:57
+check whether you have a contradiction<ft>.
+05:58
+[I mean] so these are essentially three different ways in
+06:01
+which most <sp> checkers and <sp> a provers it works [right.]
+06:08
+So, what we will do is we will take a previous one namely this and we will use this [us in]
+06:16
+[order to] as a principle way of designing a tool<ft>.
+06:25
+So, {um} this is using a essential theorem<ft>.
+06:33
+So you have one possibilities will of course is to use truth
+06:36
+table [right one.]<rt>
+06:38
+[I mean] just construct a massive truth table <sp> ladder check for validity [I mean] check
+06:43
+all the some.
+06:45
+But, [what happens is an but] the other problem<rt> is not [it is] just enough to say that <sp> this
+06:51
+argument is if it is valid<rt> of course it is enough to say whether it is valid<ft>.
+06:55
+But, if it is not<emp> valid<rt> it is not enough to say that it is not valid<ft>. <sp>
+07:02
+See if it is not<emp> valid<rt> that means you have to provide a
+07:06
+scenario <sp> in which all the hypotheses <sp> are true <sp> and the conclusion is false<ft>.
+07:14
+So, which means<rt> what we need to do is {uh} [in order I have] complete
+07:20
+checker would actually give a falsifying assignment<rt> in
+07:24
+case the argument is invalid<ft>.
+07:27
+So, that<emp> is an important aspect<rt> an in fact this is an aspect that is
+07:32
+normally not {uh} address that theorem provers proof here.
+07:37
+But, there is another <sp> field of computer science<rt> which is {uh} getting to be very<emp> popular
+07:46
+now and that is the notion of module checking<ft>.
+07:49
+[So,] in that area of model checking when you have<rt>
+07:52
+some logical statement if it is not true then, you have
+07:56
+.to provide a counter exam<ft>.
+07:59
+In the case of propositional logic what we are asking is of falsifying
+08:03
+assignments<ft> so it is the equivalent.
+08:05
+So, what we are doing in our proctology checking<rt> is <sp> to
+08:09
+provide the equivalent of a model checking mechanism<ft>.
+08:12
+So, if it is true<emp> it will definitely verify it.
+08:16
+[And] but if it is false<emp> then [it has to provide a falsifying] it
+08:20
+has to provide a counter example or a falsifying assignment or <sp> some other proof that it is
+08:27
+indeed false<ft> and that proof is something that it
+08:30
+should be able to check<ft>.
+08:32
+So, in this particular case we are looking for a essential or falsifying assignment<rt>
+08:37
+which [will make the argument in which] will show that the really the argument is invalid
+08:43
+right.<rt>
+08:46
+So, one thing of course [you said] that you have
+08:51
+to as I said clean up the argument and {uh} translate it into {uh} an argument involving only the
+08:59
+propositional connecters<rt>.
+09:01
+Which, also means you have to identify what are known as the atoms<emp>
+09:06
+in the arguments<rt>.
+09:07
+What are the atomic proposition which can be taken for granted<rt> [which can be]
+09:12
+which do not have to be split any more.
+09:15
+So, you have to split sentences into terms of the
+09:18
+propositional connectives like and or if than or not and {uh} you have to actually identify atomic
+09:26
+statements whose truth value could be anything<ft> so <sp> and since you are looking for validity.
+09:33
+.
+09:34
+..
+09:35
+[So], one thing I of course that part of that cleaning up is <sp> to essentially identify the
+09:39
+atoms in the argument<ft>.
+09:40
+[So], here is a simple identification<rt>.
+09:42
+[So], [we have got so many atoms which are which are so] I will use essentially strings<emp> taken
+09:53
+from the argument<rt> as atomic statement.
+09:57
+Which, cannot be split further<emp> into sub statement in fact
+10:01
+these are the atoms in the arguments identified in some
+10:05
+way and <sp> we already see that there are <sp> {nine} nine atoms.
+10:09
+So, your truth table is going to be quite ignominious it is going to have 512 rows. <sp>
+10:16
+And {uh} of course, [dip I do not know] since there are
+10:21
+{uh} compound propositions.
+10:24
+{uh} There going to be that<emp> many <sp> columns<emp> his so is this gone be a huge<emp> truth
+10:34
+table consisting of {uh} about <sp> few thousands cells. {right} <sp>
+10:39
+[Now], the point is<rt> not actually necessary to construct the entire truth table<ft>.
+10:46
+That is that one thing<rt>.
+10:49
+So therefore, {uh} of course non other aurgatharance that we are going to design
+10:54
+is anyway going to be less than exponential. <sp>
+10:56
+That [is it] is going to be a bottom line<ft> but, that is
+11:00
+not what we are saying.
+11:01
+But, in practice<rt> what we are saying is<rt> [so a] firstly it is not necessary
+11:06
+to consider construct the entire truth table<ft>. <sp>
+11:08
+So, it is only necessary to consider possible falsifiers<ft> <sp> and if there are no falsifier essentially <sp>
+11:16
+the argument is valid<ft>.
+11:19
+So it is possible to <sp> due tautology checking in some more discipline fashion<ft>
+11:25
+and that is what we have to look at {yeah}<rt> fact. {right}
+11:31
+..
+11:32
+And as for this basic Representation is concern<rt>.
+11:34
+We represent proposition as abstract and tax trees<rt> using <sp> standard data type or recursive
+11:41
+data type definition<rt>.
+11:43
+{uh} Which, is <sp> essentially a reflection of the <sp> {uh} grammar which was used for the design
+11:53
+of abstract and tax trees.
+11:55
+[So, as] there is so atom of string<rt> <sp> and after that rest are all connectives.
+12:03
+{uh} Which, with obvious meanings that {we uh} we can attribute to them NOT as vacation AND is and an OR is
+12:11
+or impish conditional and EQL <sp> really foundering as we came to a bar<emp> of something fact. <lp>
+12:23
+[So,] this is our we can this is as a standard representation<rt>
+12:32
+this way [what I am going to what] I do not need to worry about initial aspects of scanning
+12:37
+and parsing<rt> <sp> whatever the argument.
+12:42
+We just have <sp> representation in terms of this data type and that [is]
+12:47
+directly gives you abstract and tax trees correct. {right}
+12:52
+[So], essentially the proposition will be form from these atoms<rt>.
+13:00
+..
+13:01
+{okay} [And] so if Propositional Rendering without going into the other kind aspirates of the
+13:07
+translation essentially gives you <sp> sequence of hypotheses
+13:13
+like this.
+13:14
+[So], {there are} there are eight hypotheses<rt> and these are the compound propositions.
+13:19
+[So], if you look at sub proposition sub formally <sp> that these eight [a]
+13:26
+hypotheses have<emp> <sp> the conclusion seems to be it is just an atomic one<ft>.
+13:32
+But, if you look at all the sub formula that you have<emp> any truth table
+13:37
+construction will require columns for each of the sub
+13:40
+formularies<ft>.
+13:41
+{right} [And so] that is how you build up truth values of the <sp> full<emp> formula.
+13:48
+So if, I look at all those sub formula<rt> then essentially what you
+13:51
+have is something <sp> like we had {uh} nine atoms may be
+13:55
+something like <lp> twelve or thirteen {uh} different kinds of sub formula<rt>.
+14:05
+Because, this one this hypotheses five for example has <sp> four sub formula.
+14:12
+At least because there are four operated there <sp> [this thing has]hypotheses
+14:16
+three has three sub formulas at least<rt>.
+14:19
+And so any truth table construction <sp> would actually have
+14:23
+your 512 rows<emp> for this.
+14:27
+And multiply by 13 or 14 {uh} columns {uh} with a before {uh} and then after that
+14:36
+you will require some or problems.
+14:37
+Because, what you going to do is you will have to take their
+14:41
+conjunction of all these hypotheses and the conclusion.
+14:44
+So, that might be 15 or 16 columns<rt>.
+14:47
+And then essentially find the truth value of the argument<ft> that<emp>
+14:53
+can be quite huge.
+14:54
+So, it be a few thousand cells {uh} we do not want to do that we want to do {more} more
+15:03
+{uh} <sp> so to speak logical<emp> detective way of doing tautology checking all [right.]
+15:11
+..
+15:12
+{okay}<rt> [So, essentially we need to show that] this one was not come out right [this] so an argument
+15:19
+as far as I am concerned a list of hypotheses<rt> is a list
+15:22
+of hypotheses and a conclusion here.
+15:25
+[So], it is an ordered pair of list of hypotheses and a conclusion
+15:29
+where both the list is a list of proposition<rt> and
+15:32
+the conclusion is also a proposition<ft>.
+15:35
+[So], essentially what we are going to do is we going to do an
+15:38
+argument is a <sp> big and the all the hypotheses where edge is [a the set of] a list of hypotheses<rt>
+15:45
+and {uh} a essentially we are saying that you take the
+15:48
+conjunction of the hypotheses<rt> and {uh} show that the
+15:52
+implication <sp> show that this conjunction implies the conclusion.
+15:58
+{right} [So], [I can so there is a ] so I can define function called <sp> which does it big AND [what we are going]
+16:06
+[to do is.]
+16:07
+S[o, you take this so essentially] there are of course trowel cases where <sp> you might just
+16:15
+have a conclusion<ft>.
+16:16
+I mean that is a trowels case of <sp> just claiming<emp> that some proposition is at
+16:20
+tautology<ft>.
+16:21
+[So, this is what so I would and] an argument is valid<rt> <sp> provided you take this <sp> implication
+16:31
+and prove that it is a tautology<ft>. <lp>
+16:34
+Of course, the result of checking whether its tautology<rt> is just
+16:38
+going to be a true or false result<ft> and that is not sufficient.
+16:41
+If, it is false<emp> then we also requires previous falsification<ft> so here is the function
+16:47
+{uh} to falsify an argument<rt>.
+16:49
+{uh} Which, essentially <sp> checks {uh} whether <sp> the <sp> conjuctal normal form <sp> of this
+17:00
+entire proposition <sp> big and of H implies <sp> P whether that
+17:07
+conjunct to normal form<emp> can be falsify<ft>.
+17:11
+[So], this<emp> is one possible strategy and not necessarily the
+17:17
+best strategy<rt> this is one possible strategy<ft> here and this is the strategy that <sp> I have
+17:23
+adopted<ft>. {right}
+17:24
+{okay} .If, there is a problem here the big and<rt> gives me conjunctive normal forms very easily<ft>.
+17:31
+But, the fact that the big AND <sp> has to implies something<rt>
+17:37
+essentially means when, I replace <sp> [the implicate] the arrow <sp> or then I will get a negation of
+17:45
+the big AND.
+17:46
+Which, will be <sp> a big OR {right} and then<emp> if I have to take the conjuctal normal form of
+17:55
+that<rt> essentially that formula will explore<ft> it. {right} <sp>
+17:59
+Because, I will have to distribute the or<rt> I had to push
+18:05
+it down<rt> in order to get the conjunctly normal form<ft>. {right}
+18:09
+{okay} But, any way we going to do that<ft>.
+18:14
+{right} [So, actual Checking of Tautology therefore reduces to] I can
+18:21
+get rid of that tautology function<rt>.
+18:23
+And just look at falsification<ft> <sp> because, any way I have to do
+18:27
+falsification<rt> if there is going to be any proof<rt>.
+18:30
+.
+18:31
+So, what do I do.
+18:33
+I take entire <sp> {uh} argument represented as a proposition<rt> <sp> and I take a conjuctal
+18:40
+normal form<rt> and check whether I can falsify it<ft>. {okay}
+18:46
+And if, I can falsified then it is <sp> that itself gives
+18:53
+me of falsifying assignment<ft>.
+18:56
+An assignment {which} which will give me a truth assignment for the
+19:00
+individual atoms [which ensures] {uh} from which I know that argument is invalid<ft> and that can
+19:08
+be checked.
+19:09
+For example manually if you like<ft> if, you have enough time<ft>. <sp>
+19:13
+So, if the result<rt> of falsification<rt> is an empty list<rt> that means
+19:20
+there is no possible falsification therefore its tautology<ft>. <sp>
+19:24
+So, this is the way which proctology checks all words<ft>. {yeah} {right}
+19:34
+So, <sp> falsification is an important aspect is not just checking validity of architecture<ft> {yeah}
+19:41
+and I use<rt> the falsification in order to determine various
+19:44
+some tautologies<ft> in fact. {right}
+19:48
+..
+19:49
+So, one thing of course Computing this CNF <sp> [taking any propositional logic] taking any <sp>
+19:56
+element of that data type of opposition<rt> basically
+20:00
+we have to defined rewrite rules.
+20:02
+One is of course pushing down negation and when you push down
+20:06
+negation then yours or’s an ands get inverted.
+20:09
+But, before that<emp> what you need to do is to Rewrite all the implication an equivalences
+20:14
+rewrite implication in equivalences in terms of and
+20:17
+or’s and not’s<rt> <sp> and after that<rt> you just push down or all
+20:21
+the negation so that you get at the bottom of the tree <sp> {uh} only liters.
+20:29
+And there is no negation [after worse about]<ft> so, there is a front gear of negation
+20:33
+which gets created<rt> and above it since there are
+20:38
+no other operated they can only be ands and or’s<rt>. <sp>
+20:41
+And of course, what you can do is once you distributes all though or’s over the ands<rt>
+20:46
+you get a stratified formula something like what I said.
+20:52
+We would get a essentially satisfied formula like this<ft>. <lp>
+21:00
+..
+21:01
+{And what the big AND does} <lp> And what the big AND does it actually flatance this street<rt> <sp> to a list of <sp> literance<ft>. <lp>
+21:20
+{So this} So, this big AND essentially just flatance this tree<rt> into a
+21:28
+list of literance.
+21:29
+So now, I am essentially dealing with lists of <sp> literance.
+21:34
+So, <lp> {So} the list of literance means basically that <sp> you have a list of conjuncts<rt> <sp> and each
+21:48
+conjuncts is a list of is a disjunction of <sp> {uh} literance<ft>.
+21:55
+And so you have a list of literance <sp> and you have
+21:59
+to look at those literance in that way<ft>.
+22:02
+[So, this is] so when you do all this<rt> so you will get a
+22:05
+essentially this list<ft>.
+22:06
+So, how do you do falsification?<rt>
+22:08
+[So, essentially what we are] so the whole idea now of the tautology checker<rt> has moved<emp>
+22:15
+from actually determining whether it is a formulized tautology<rt> to just checking whether
+22:21
+it can be falsified<ft>. <sp>
+22:23
+So, falsification is important.
+22:26
+..
+22:27
+And basically if it cannot be falsified then it is tautology<ft>. {right}
+22:29
+So, one thing is true so you have a CNF<rt> <sp> and in order to falsify a CNF<rt> it suffices
+22:39
+to find just on conjunct in this CNF<rt> which is false<ft>.
+22:43
+So, it seems it is a conjunction of <sp> {uh} essentially disjunctions<rt>
+22:50
+{uh} [its posses] it is necessary to find just one of
+22:52
+those to be false.
+22:54
+Now, when is a disjunct false<rt> that is where the complication comes<ft> at disjunct
+23:00
+it false if an only if<rt> <sp> it does not have what is non as complementary pair<ft>.
+23:08
+So, <sp> {uh} if it contains a complementary pair<rt> that means, [if it contain
+23:14
+both the positive] for some atom P<emp> it contains both P
+23:18
+and not P<emp>. Then, the disjunction of P and not P is any way true <sp> so that disjunct never
+23:24
+be false<ft>.
+23:25
+However<emp>, if there disjunct consist of just <sp> completely disjoint literence <sp> with no common
+23:32
+atoms for all the atoms in all the literals are unique<emp> <sp> .
+23:36
+Then, it is possible to falsified by setting all those literals false<ft> which means the positive
+23:43
+atoms you said them to false<rt> and the negative atoms
+23:45
+you said them to true<ft>.
+23:47
+So, then you can this of course the only way disjunction can be falsified<rt>
+23:52
+is all the litereance in the disjunction are false<ft>. <sp>
+23:56
+[And the way to do that is to ensure that so if] so now<emp>, the problem therefore just reduce
+24:02
+its so then it can be falsified<ft>.
+24:04
+But, we do not need to actually do that it is just enough to check whether there
+24:07
+is a complementary pair or not<ft>.
+24:09
+If, there is not complementary pair<rt> then it can be falsified and
+24:12
+therefore there is no problem<ft>.
+24:16
+[So, this is what] so <sp> you take this literals<rt> in any disjunct.
+24:22
+[So], {uh} <sp> let say take a disjunct Di<rt> <sp> and just <sp> patrician it into
+24:31
+the positive and the negative literance<ft>.
+24:33
+So, in fact once you have patrician it<rt> <sp> you can even remove
+24:37
+the negation sign from the literance<ft> so you patrician it
+24:40
+.into two set of atoms. <sp>
+24:42
+One set of atoms is Pi<rt> and the other set of atoms is Ni<ft> and all you check is
+24:47
+whether they have is any common element<ft> in it. {right}
+24:51
+[So, what I am saying is it so the] so this is what
+24:54
+actually tautology checkers does<ft>. <sp>
+24:57
+So now<emp>, {the the} the falsification<emp> of the CNF<rt> reduces essentially to just
+25:06
+checking whether there are common elements into list<ft>.

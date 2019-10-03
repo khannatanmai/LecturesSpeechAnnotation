@@ -1,0 +1,256 @@
+00:07
+There are many other applications like: constructing the expression tree from the postorder expression.
+00:39
+I'll leave you with an idea as how to go about it.
+00:42
+Suppose I have a, b, c, plus, and star, what we do is, when we have symbols,
+00:53
+First we have a forest of trees pointing to a, this pointing to b, as you traverse
+01:01
+from the left to right of this expression. 
+01:06
+As you move from left to right of this expression
+01:07
+what you do, you just create pointers to trees in a forest.
+01:10
+Then, what you do is you come across plus, 
+01:15
+then you create a new node with plus 
+01:17
+and then, you take the top most two, it is like a stack, it is actually like a stack.
+01:22
+It is actually a stack of tress. 
+01:30
+What we do is now, I put these from left to right, I put the trees - a, b and c. 
+01:40
+And then, as soon as I come across the operator, what do I do, I pop the most recent two trees, 
+01:48
+then I create a new tree with the plus and
+01:53
+I make the first tree the left child, the most recently popped out tree be the left child and the previously popped out tree be the right child.
+02:08
+Now, again I have one more symbol left, I come across the star. 
+02:12
+So, I pop out both the trees and I put on to the stack, the star
+02:33
+and the most recently popped tree becomes the left child and the previously popped tree becomes the right child
+02:40
+And until you get a single tree which exists on the stack. 
+02:44
+So, this is the other application of binary trees and stacks. 
+02:48
+Both of them can be used quite efficiently to build what are called expression trees.
+02:58
+So, this is a very, very useful application of binary trees.
+03:01
+Now, another thing we always like to do when we build binary trees. 
+03:07
+Let us take this expression tree itself, let us look at an expression. 
+03:27
+Let us say we have something like this, then what we are doing the expression is evaluated,. So, it is evaluated from left. 
+03:34
+So, let us say I have this here plus star b c actually go over this from the right
+03:56
+Let us say I form an expression tree, I don't know how many of you are familiar, 
+03:59
+We use this kind of a expression parsing to do this
+04:10
+expression, term or expression and term is term or a factor
+04:46
+and let us say factor is the name as it is in this example.
+04:54
+What is name? let us say this is a, b, c.
+05:02
+Suppose, I use this grammar to generate this expression
+05:08
+We have already done a course on compilers. 
+05:12
+Let us see, this is completely an unambiguous grammar, 
+05:16
+we add up here is plus or minus mult or star or slash, let us say.
+05:36
+So, how do we parse this given expression? 
+05:39
+So, we start from the root over here, expression is defined as expression add operator terms, so I start it over here.
+05:48
+Plus, then what do we have, then on the left hand side, then the other plus again add the plus
+05:57
+Then I will get a here, I will get star, b, c, and star, b, plus, e, f 
+06:19
+This is how you will get a binary tree. 
+06:21
+What I have done is, all the exercise that I have done is to just show that
+06:24
+the expressions, harmless expressions that I have written like this, it can be written as the binary tree.
+06:31
+Now, what we will do is we will talk about other things now. We will talk about traversal of this tree. Let us see what it gives us. 
+06:44
+There are three types of traversals preorder, postorder and inorder. 
+07:02
+Now, the definitions are given over here - How to traverse these trees.
+07:06
+So, preorder traversal says visit the root, then what you do, you visit the left child in preorder recursively
+07:15
+,visit the right child in preorder recursively. 
+07:19
+It means what now,
+07:21
+The inorder traversal says visit the left child in inorder recursively,
+07:30
+Visit the root this is the right child in inorder recursively. 
+07:36
+Then, postorder traversal says visit the left child in postorder,
+07:41
+And visit the right child in postorder recursively, visit the root. 
+07:48
+Let us see what this gives,.
+07:50
+So, everything has to be done recursively. What is the meaning of this?
+07:57
+Let us look at inorder traversal, visit the left child in inorder recursively. 
+08:07
+Let us say, I want to do this traversal of the tree, 
+08:13
+Traversal means simply walking around the tree.
+08:16
+Just the way the listed node is what changes. Now, what it says let us look at inorder traversal,
+08:25
+it says first we look at inorder, because it will become clear to you what we are doing.
+08:32
+Visit left child recursively, visit root and visit right child recursively is what your inorder traversal is.
+08:54
+So, let us look at the tree what would we do.
+08:56
+That means, I am starting from the root here and I am going to recursively keep on going down to this,
+09:05
+Until I reach the leaf node. Then, what do I do, 
+09:12
+I display the leaf node. 
+09:13
+So, I keep going down, because I have to visit the left most child. 
+09:17
+Then, what happens - I go up, then I visit the root and get plus, then again I go to the right child and again after recursively do the same thing;
+09:30
+That means, what preorder, inorder all these are recursive traversals.
+09:33
+So, I go to the right child, then again I will do left child recursively, root, then then right child and then go back. 
+09:45
+Then, what happens here,. So, I come down this plus go down here, this becomes b star c and then
+09:57
+what happens, this is node as we already been visited,. 
+10:00
+So, I go back up to the root of the tree,
+10:03
+give me plus, then again I come to the right node star, again I have to do the recursively left child. 
+10:11
+So, I do d, I come to the leaf node star, then I have to add e plus f
+10:19
+The bracket has to come, because it is one level lower.
+10:22
+So, inorder traversal essentially gives me the expression back. 
+10:26
+So, what is it tell me now - when I look at the inorder traversal of the tree, I get the infix expression of the given tree.
+10:35
+This one extra information that we have used here, we use the factor star is done after plus,
+10:41
+because it is one level lower in the tree. So, I get the infix expression.
+10:45
+So, let us look at what postorder expression, postorder traversal of the tree will give you.
+10:52
+What does postorder traversal say?
+10:55
+Postorder traversal says visit left child in postorder recursively, 
+11:01
+then visit right child in postorder recursively, 
+11:05
+visit root and the same thing keeps on getting repeated again and again.
+11:09
+So, I take the left child recursively visit in postorder.
+11:14
+Let me just explain this over here. 
+11:22
+So I visit the left child, I cannot came down, there are no more leaf nodes,
+11:26
+So, I display a. 
+11:28
+Then, I have to go to the right child,
+11:31
+go back left child, right child and then root is what it says, go to the right child. 
+11:36
+Then, right child again I have to recursively go down, do postorder, left child, right child, then root.
+11:44
+So, what will happen, I get a, b, c, star, then, what do I get, now all of them have been visited,
+11:52
+I go back up. So, left child, right child, then root get plus here and then, what happens.
+12:01
+So, the left child of this root tree is completed now. So, I go to the right tree over here.
+12:07
+Then, what do I get here now, I have get d, 
+12:14
+Then again this is the left child, this is the leaf node, there is nothing else to see, 
+12:18
+Therefore, I display the leaf node. Then, I go to its right child, 
+12:21
+Again I have to look at postorder over there. 
+12:24
+Therefore, I get e f plus e left child postorder, right child postorder, root,
+12:31
+Then I will put the plus over here that is how it comes here
+12:37
+And then finally, this star and then finally, the plus, the last plus sign that we have.
+12:48
+So, I have made a mistake here, this plus should not be here. 
+12:54
+See, a b c star, then I have to do the right child, d e f plus star plus. 
+13:01
+So, what did we get now, we got a b c star plus, correct, d e f plus star plus.
+13:17
+How many are there? 1, 2, 3 correct.
+13:21
+So, this is what we get as the expression. What is the expression now?
+13:25
+This is nothing but the postfix expression which all of us have already been done. 
+13:32
+When we talked about stack, stacks we talked about generating the postfix expression from an infix expression.
+13:41
+So, what is interesting here is once it is represented as a binary tree, 
+13:45
+If I do inorder traversal I get the infix expression, 
+13:50
+when I do postorder traversal I get the postfix expression,
+13:54
+And obviously, if I do preorder traversal I will get the prefix expression.
+13:58
+So, this is also a very big application of binary trees. 
+14:03
+Now, once this expression is given like this, I can use this stack of trees to evaluate this particular expression. 
+14:12
+So, I hope you are with me here and you have understood what I have said. 
+14:20
+Another we have looking at this various traversals to make it simpler is-
+14:25
+Preorder traversal can be thought of as, you display the node the first time you visit it.
+14:34
+In inorder traversal, you display the node the second time you will visit it. 
+14:40
+Remember, I have drawn this path over here which goes around the tree 
+14:45
+And in postorder traversal you display the node, the last time you visit it. 
+14:50
+So, these are simple traversals schemes.
+14:53
+So, now the next question that we would like to ask is suppose you are given only the traversals,
+15:02
+traversals are given, can we construct the tree exactly?
+15:27
+Let us look at only with respect to binary trees-
+15:33
+We have two traversals now, inorder traversal and we have the postorder traversal. 
+15:42
+We can also do the preorder I encourage you to do the preorder traversal of the tree. 
+15:45
+Now, given the inorder traversal can I construct the tree uniquely without any other information
+15:52
+And given the postorder traversal, can I construct the tree uniquely?
+15:59
+Let us see how you will do this in the next lecture.
