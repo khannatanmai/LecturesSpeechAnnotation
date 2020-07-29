@@ -1,7 +1,5 @@
 00:19
-In our last two
-<emp>
- sessions 
+In our last two<emp> sessions 
 <sp>
  , we were discussing about 
 <sp>
@@ -79,13 +77,9 @@ what is a contribute margin you are earning
 01:34
 If sales go up from 10 lakhs to 11 lakhs, 
 <sp>
- on the extra
-<emp>
- 1 lakh of sales, what is the
+ on the extra<emp> 1 lakh of sales, what is the
 01:42
-extra
-<emp>
- profit which you will earn 
+extra<emp> profit which you will earn 
 <sp>
  that you get from PV ratio or contribution margin ratio
 <ft>
@@ -107,9 +101,7 @@ cost into variable and fixed.
 02:04
 And the contribution
 <rt>
- margin is a comparison between revenue
-<emp>
- and variable costs
+ margin is a comparison between revenue<emp> and variable costs
 <ft>
 . 
 <sp>
@@ -251,17 +243,13 @@ So, as a percentage what is our margin
 <sp>
  we divide fixed cost by PV ratio
 04:38
-to get BEP
-<emp>
- in sales value
+to get BEP<emp> in sales value
 <ft>
 . 
 <lp>
 
 04:44
-Now, this is the CVP
-<emp>
- - cost volume profit graph, 
+Now, this is the CVP<emp> - cost volume profit graph, 
 <sp>
  it is also called as breakeven chart
 <ft>
@@ -291,9 +279,7 @@ level
 05:18
 Then from there itself emerges a line going up 
 <sp>
- which is a total
-<emp>
- cost line, 
+ which is a total<emp> cost line, 
 <sp>
  because total
 05:27
@@ -345,9 +331,7 @@ Below
 <rt>
  this level is what is known as loss area
 <ft>
-, because now your costs are more
-<emp>
- than
+, because now your costs are more<emp> than
 06:25
 sales.
 06:26
@@ -381,17 +365,13 @@ on increasing and increasing,
 <ft>
  
 <sp>
- maximum
-<emp>
- loss is equal
+ maximum<emp> loss is equal
 06:54
 to fixed cost at zero point
 <ft>
 , 
 <sp>
- because fixed cost are the costs which we incur irrespective
-<emp>
-
+ because fixed cost are the costs which we incur irrespective<emp>
 07:01
 of sales
 <ft>
@@ -461,13 +441,7 @@ of 5 lakhs
 08:04
 
 [Now,]
- based on these there is a concept called as MOS
-<emp>
- or margin
-<emp>
- of safety
-<emp>
-. 
+ based on these there is a concept called as MOS<emp> or margin<emp> of safety<emp>. 
 <sp>
 
 08:13
@@ -547,9 +521,7 @@ Another way of showing it is MOS as a percentage
 <sp>
 
 09:34
-divided by actual
-<emp>
- sales. 
+divided by actual<emp> sales. 
 <sp>
 
 09:38
@@ -575,17 +547,11 @@ Now, this represents the safety available to business at current level of sales
 <sp>
  because
 09:59
-everybody wants to avoid
-<emp>
- losses . 
+everybody wants to avoid<emp> losses . 
 <sp>
  So, to avoid losses, you are above certain level of sales
 10:06
-how
-<emp>
- much
-<emp>
- you are above is the margin of safety
+how<emp> much<emp> you are above is the margin of safety
 <ft>
 . 
 <sp>
@@ -637,9 +603,7 @@ What that is known as
 <rt>
  
 <sp>
- 50 minus 30, I hope you remember that is called as a contribution
-<emp>
-
+ 50 minus 30, I hope you remember that is called as a contribution<emp>
 11:06
 per unit
 <ft>
@@ -659,9 +623,7 @@ How much you have to
 <sp>
  earn minimum, 
 <sp>
- minimum you have to earn enough to cover
-<emp>
- your 35000
+ minimum you have to earn enough to cover<emp> your 35000
 <ft>
 
 11:27
@@ -695,11 +657,7 @@ So, how much is PV ratio
 <sp>
 
 11:56
-So, 40
-<emp>
- percent is a PV ratio . Now, if you divide fixed cost by 40
-<emp>
- percent you will get
+So, 40<emp> percent is a PV ratio . Now, if you divide fixed cost by 40<emp> percent you will get
 12:07
 BEP amount
 <ft>
@@ -721,21 +679,13 @@ I will show you the calculations
 12:21
 I hope it is clear to you 
 <sp>
- 35000
-<emp>
- divided by 20, that means, 1750
-<emp>
- units 
+ 35000<emp> divided by 20, that means, 1750<emp> units 
 <sp>
  is a breakeven
 12:33
 point.
 12:34
-You need to sell 1750
-<emp>
- units to recover
-<emp>
- 35000
+You need to sell 1750<emp> units to recover<emp> 35000
 <ft>
 . 
 <sp>
@@ -747,9 +697,7 @@ Now, in terms of sales value
 12:48
 50; that means, 40 percent 
 <sp>
- 35000 by 40 percent gives you 87500
-<emp>
- rupees
+ 35000 by 40 percent gives you 87500<emp> rupees
 <ft>
  
 <sp>
@@ -801,9 +749,7 @@ Now, 5000 is their sales level
 13:36
 
 [So]
-, you get 65
-<emp>
- percent. 
+, you get 65<emp> percent. 
 <sp>
 
 13:41
@@ -815,21 +761,13 @@ What it means is
 13:47
 percent, 30 percent, 40 percent, they are still not in losses.
 13:50
-They will have to worry because sales are dropping, but it can go up to 65 percent
-<emp>
- before
+They will have to worry because sales are dropping, but it can go up to 65 percent<emp> before
 14:00
 which
 <rt>
  they will not go in losses
 <ft>
-, that is why they have a margin
-<emp>
- of safety
-<emp>
- of 65
-<emp>
- percent
+, that is why they have a margin<emp> of safety<emp> of 65<emp> percent
 <ft>
 .
 14:09
@@ -861,9 +799,7 @@ us try to solve
 <rt>
 .
 14:33
-So, you have been shared with five
-<emp>
- cases.
+So, you have been shared with five<emp> cases.
 14:37
 Let us go one by one.
 14:40
@@ -899,9 +835,7 @@ August, it is something different.
 <sp>
 
 15:31
-Now, we have to do two things first find the monthly
-<emp>
- profits. 
+Now, we have to do two things first find the monthly<emp> profits. 
 <sp>
 
 15:38
@@ -963,9 +897,7 @@ So, now, how will you go ahead
 <lp>
 
 16:41
-I think most of you know by now that the first step is calculating the contribution
-<emp>
- per unit
+I think most of you know by now that the first step is calculating the contribution<emp> per unit
 <ft>
 .
 16:48
@@ -983,9 +915,7 @@ the three products .
 17:06
 So, contribution per number of units
 <rt>
- will give you total
-<emp>
- contribution for July and for
+ will give you total<emp> contribution for July and for
 17:15
 August separately
 <rt>
@@ -997,17 +927,13 @@ Contribution minus fixed costs gives you the proper
 <sp>
  in part a we have been asked to calculate
 17:27
-monthly
-<emp>
- profits, 
+monthly<emp> profits, 
 <sp>
  so that is the first thing you do it. 
 <sp>
 
 17:33
-And then
-<emp>
- we will discuss 
+And then<emp> we will discuss 
 <sp>
  as to which month has more profits
 <ft>
@@ -1123,13 +1049,9 @@ And as a percentage it is
 <sp>
 
 19:55
-So, 11 upon 36
-<emp>
- will give you this ratio known as 
+So, 11 upon 36<emp> will give you this ratio known as 
 <sp>
- PV
-<emp>
- ratio
+ PV<emp> ratio
 <ft>
  .
 20:05
@@ -1137,9 +1059,7 @@ Now, in the same manner
 <rt>
 , take the data for product B which is 14, 8 and 20
 <rt>
-, please
-<emp>
- compute 
+, please<emp> compute 
 <sp>
 
 20:21
@@ -1201,9 +1121,7 @@ Are you getting contribution of 4 rupees?
 <lp>
 
 21:38
-And 0.06
-<emp>
- 
+And 0.06<emp> 
 <sp>
  is the PV ratio
 <ft>
@@ -1235,9 +1153,7 @@ a starting point.
 22:17
 This is the first 
 <sp>
- compulsory
-<emp>
- calculation
+ compulsory<emp> calculation
 <ft>
 .
 22:22
@@ -1245,9 +1161,7 @@ Now, based on this
 <rt>
  
 <sp>
- let us make the calculation of monthly
-<emp>
- profits
+ let us make the calculation of monthly<emp> profits
 <ft>
 . 
 <sp>
@@ -1279,17 +1193,13 @@ You know the contribution per unit also from the contribution chart
 <sp>
 
 22:57
-Apply
-<emp>
- those data and calculate the profit from each of the three products
+Apply<emp> those data and calculate the profit from each of the three products
 <ft>
  
 <sp>
  that will
 23:05
-become the total
-<emp>
- profit for the month of July
+become the total<emp> profit for the month of July
 <ft>
  
 <lp>
@@ -1313,9 +1223,7 @@ point in deducting fixed cost because you do not know separately fixed cost for 
 <sp>
  , but
 23:43
-if you complete it for the whole
-<emp>
- company 
+if you complete it for the whole<emp> company 
 <sp>
  so 220 here, 440 for B, and 80000 for C
 <ft>
@@ -1325,15 +1233,11 @@ if you complete it for the whole
 23:58
 means for a company as a whole 
 <sp>
- , they are able to earn a contribution of 540000
-<emp>
-  
+ , they are able to earn a contribution of 540000<emp>  
 <sp>
  from a sale
 24:11
-of 2960000
-<emp>
-. 
+of 2960000<emp>. 
 <sp>
 
 24:14
@@ -1345,9 +1249,7 @@ From this
 <sp>
  now 540 minus 480, you get a profit o   
 <sp>
- 60000
-<emp>
-.
+ 60000<emp>.
 24:28
 Are you getting it?
 <rt>
@@ -1377,9 +1279,7 @@ total sales, they do not play much role.
 <sp>
 
 24:58
-What we really
-<emp>
- want is called total contribution
+What we really<emp> want is called total contribution
 <rt>
  and deduct it from fixed cost
 <ft>

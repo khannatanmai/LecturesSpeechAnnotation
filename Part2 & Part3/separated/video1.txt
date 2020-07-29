@@ -95,9 +95,7 @@ actually some kind of
 02:01
 
 [a]
- as different tissues respond differently or the same
-<emp>
- tissue I can say respond differently
+ as different tissues respond differently or the same<emp> tissue I can say respond differently
 02:06
 to different particle depending on their mass and energy level 
 <sp>
@@ -145,9 +143,7 @@ equipments,
 <rt>
  being contributed by
 02:58
-different kind of medical instruments
-<emp>
- like where instruments like MRI which does not
+different kind of medical instruments<emp> like where instruments like MRI which does not
 <rt>
 
 03:04
@@ -211,9 +207,7 @@ of radiation
 04:16
 You have seen the cellular effects of radiation can be of two types
 <rt>
-, primarily one
-<emp>
- is the
+, primarily one<emp> is the
 04:22
 indirect effect which leads to the 
 <sp>
@@ -239,9 +233,7 @@ of several very dangerous kind of
 04:51
 so called the superoxides.
 04:52
-They all
-<emp>
- can have important effects or important detrimental
+They all<emp> can have important effects or important detrimental
 <rt>
  effects on the cell.
 05:01
@@ -281,9 +273,7 @@ appears only once a threshold dose of radiation is based
 <rt>
  if the radiation exposure
 05:42
-is less than the threshold, then you will not find any kind of effect or only
-<emp>
- when the
+is less than the threshold, then you will not find any kind of effect or only<emp> when the
 05:47
 threshold is reached the effect becomes prominent .
 05:51
@@ -383,9 +373,7 @@ Ovaries even more sensitive generally the female genitalia is much more sensitiv
 07:44
 the male genitalia that is why the value is even smaller
 <ft>
- even 10
-<emp>
- times smaller to this
+ even 10<emp> times smaller to this
 07:51
 . The lens of eye that is also very very sensitive
 07:56
@@ -405,9 +393,7 @@ And bone marrow probably is the most sensitive kind of tissue or sensitive kind 
 08:24
 the body related to radiation effects with a very relatively smaller radiation dose of
 08:31
-only 0.5
-<emp>
- Sievert it can lead to the blood forming deficiency.
+only 0.5<emp> Sievert it can lead to the blood forming deficiency.
 <ft>
 
 08:37
@@ -447,9 +433,7 @@ of the radiation
 09:11
 Rather
 <rt>
- there more likely
-<emp>
- with increasing the dose.
+ there more likely<emp> with increasing the dose.
 09:16
 Or I can say that
 <rt>
@@ -497,9 +481,7 @@ of the dose.
 <ft>
 
 10:13
-And stochastic effect actually concerns much larger
-<emp>
- or more catastrophically effects of
+And stochastic effect actually concerns much larger<emp> or more catastrophically effects of
 10:20
 radiations such as the carcinogenesis and also the gene 
 [genet]
@@ -517,9 +499,7 @@ difficult to spot
 10:38
 and they appear once their threshold is breached.
 10:41
-Now we need to gets some idea about the human cell cycle
-<emp>
-.
+Now we need to gets some idea about the human cell cycle<emp>.
 10:45
 Each human cell undergoes quite a few difference stages of development
 <ft>
@@ -529,9 +509,7 @@ importance
 <rt>
  is the G 1 stage like shown in the diagram
 <rt>
- they are principally four
-<emp>
- or five
+ they are principally four<emp> or five
 10:59
 stages . Once the first stage is the G 1 phase
 <rt>
@@ -573,9 +551,7 @@ mitosis itself
 11:45
 many human body cells may exit the cell cycle remain in a resting position or some kind
 11:52
-of neutral position for some time into some cells may remain there for a very
-<emp>
-, very long
+of neutral position for some time into some cells may remain there for a very<emp>, very long
 11:59
 time and that is referred to as a G naught phase
 <ft>
@@ -583,9 +559,7 @@ time and that is referred to as a G naught phase
 12:04
 Now
 <rt>
-, scientist have done some experiments to understand which
-<emp>
- particular phase of this
+, scientist have done some experiments to understand which<emp> particular phase of this
 12:11
 human cell cycle
 <rt>
@@ -623,9 +597,7 @@ most vulnerable to radiation
 <rt>
  when that is going to the mitosis process
 <rt>
- or
-<emp>
- about to go
+ or<emp> about to go
 12:56
 through the mitosis process
 <ft>
@@ -669,9 +641,7 @@ therefore
 <ft>
 , but once the
 13:44
-radiation effects the nucleus
-<emp>
- then the radiation is definitely going to be 
+radiation effects the nucleus<emp> then the radiation is definitely going to be 
 [the]
  very important
 13:51
@@ -679,9 +649,7 @@ and the cell is going to suffer, because nucleus is a main part of the cell and 
 13:56
 . And
 <rt>
- the nucleus
-<emp>
- is 
+ the nucleus<emp> is 
 {uh}
  in the most vulnerable
 <rt>
@@ -829,17 +797,13 @@ You can see it is a vertical straight line which is going down very very rapidly
 16:43
 Here one thing of importance here is a vertical scale is a logarithmic scale
 <rt>
- and so
-<emp>
- the change
+ and so<emp> the change
 16:48
 is extremely rapid . Whereas for low LET radiation
 <rt>
 , the change is very small particular in this
 16:54
-part, there is very little
-<emp>
- change, it is increasing only later on
+part, there is very little<emp> change, it is increasing only later on
 <ft>
  . So, for a high LET radiation
 17:02
@@ -921,9 +885,7 @@ But of course, the fact is
 <rt>
  that for a nuclear accident, the affect may be very very prolonged
 18:26
-because the radioactivity may remain in the surrounding for a few hundred
-<emp>
- years as well.
+because the radioactivity may remain in the surrounding for a few hundred<emp> years as well.
 18:32
 So, these are the five different kinds of mechanisms of cell may undergoes apoptosis
 <rt>
@@ -997,9 +959,7 @@ While at a lower dose
 19:41
 One thing we have to understand here the all the effect of radiation may not be bad because
 19:47
-treatment of carcinogenesis such kind of things also you makes use of high
-<emp>
- dose radiations.
+treatment of carcinogenesis such kind of things also you makes use of high<emp> dose radiations.
 19:54
 And they are
 <rt>

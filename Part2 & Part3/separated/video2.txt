@@ -137,9 +137,7 @@ trees
 02:29
 recently popped tree becomes the right child
 <rt>
- and the most
-<emp>
- recently popped tree becomes
+ and the most<emp> recently popped tree becomes
 02:35
 the left child
 <rt>
@@ -167,9 +165,7 @@ binary trees
 02:52
 called
 <rt>
- expression
-<emp>
- trees
+ expression<emp> trees
 <ft>
 . 
 [So]
@@ -287,9 +283,7 @@ expression
 05:13
 an unambiguous grammar
 <rt>
-, we add up here
-<emp>
- 
+, we add up here<emp> 
 <sp>
  is plus or minus
 <rt>
@@ -363,9 +357,7 @@ as the binary tree
 <rt>
 . We will
 06:36
-talk about traversal
-<emp>
- 
+talk about traversal<emp> 
 {of these trees}
  of this tree
 <ft>
@@ -373,9 +365,7 @@ talk about traversal
 <rt>
  what it gives us
 <ft>
-. There are three
-<emp>
- types
+. There are three<emp> types
 06:45
 of traversals 
 <sp>
@@ -635,9 +625,7 @@ given tree
 <rt>
 , we use the factor star
 10:39
-is done after
-<emp>
- plus, because it is one level lower in the tree
+is done after<emp> plus, because it is one level lower in the tree
 <ft>
 ,. 
 [So]
@@ -677,9 +665,7 @@ again and again
 [So]
 , I take the left child 
 <rt>
- recursively
-<emp>
- visit in postorder
+ recursively<emp> visit in postorder
 <ft>
 , let me just
 11:14
@@ -765,9 +751,7 @@ I go back up
 <rt>
 .
 12:07
-Then
-<emp>
-, 
+Then<emp>, 
 [what do I get now,]
  what do I get here now
 <rt>
@@ -919,9 +903,7 @@ I will get the prefix expression
 [So]
 , this is also a very big application of binary trees
 <ft>
-. Now, once
-<emp>
- this expression is
+. Now, once<emp> this expression is
 14:04
 given like this
 <rt>
@@ -945,9 +927,7 @@ I hope you are with me here
 <rt>
 
 14:18
-notice that another
-<emp>
- we have looking at this various traversals
+notice that another<emp> we have looking at this various traversals
 <rt>
  to make it simpler is 
 <sp>
@@ -959,9 +939,7 @@ traversal can be thought of as
 <sp>
 , you 
 <sp>
- display
-<emp>
- the node the first time you visit it.
+ display<emp> the node the first time you visit it.
 <ft>
 
 14:34

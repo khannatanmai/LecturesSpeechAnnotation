@@ -3,9 +3,7 @@
 {Okay}
  
 [So]
-, let us start
-<emp>
- 
+, let us start<emp> 
 <sp>
  today 
 {uh}
@@ -35,9 +33,7 @@ it is
 00:44
 peace of 
 <sp>
- actual program code that I
-<emp>
- will be discussing the rest you will be writing
+ actual program code that I<emp> will be discussing the rest you will be writing
 <ft>
 .
 00:51
@@ -221,9 +217,7 @@ firstly
 <sp>
  ambiguity.
 03:15
-So, one and so forth and may be one have reward
-<emp>
- it 
+So, one and so forth and may be one have reward<emp> it 
 {uh}
  
 03:20
@@ -231,9 +225,7 @@ retranslated to
 {uh}
  some 
 <sp>
- more sensible logical
-<emp>
- forms so that the ambiguities of language
+ more sensible logical<emp> forms so that the ambiguities of language
 03:28
 are 
 <sp>
@@ -261,9 +253,7 @@ So, the other thing is in order to know whether it is valid.
 03:45
 Basically what we are asking is 
 <sp>
- whether this last
-<emp>
- statement therefore the
+ whether this last<emp> statement therefore the
 03:50
 government will take a loan from the IMF 
 <sp>
@@ -315,9 +305,7 @@ are true
 04:31
 And then, you are asking whether in that world 
 <sp>
- it is always guaranteed
-<emp>
- that the
+ it is always guaranteed<emp> that the
 04:36
 conclusion would also be true
 <ft>
@@ -363,9 +351,7 @@ true
 05:09
 So, for propositional arguments
 <rt>
- you just asking whether this
-<emp>
- the
+ you just asking whether this<emp> the
 05:13
 conjunction of the hypotheses 
 <sp>
@@ -395,9 +381,7 @@ One thing is to actually look at this whole thing conditionally
 05:38
 just conditionally 
 <sp>
- and check
-<emp>
- whether this is a valid
+ and check<emp> whether this is a valid
 05:44
 formula
 <ft>
@@ -405,9 +389,7 @@ formula
 05:45
 
 {uh}
- This is also question of checking whether this
-<emp>
- is tautology
+ This is also question of checking whether this<emp> is tautology
 <rt>
 .
 05:50
@@ -489,9 +471,7 @@ argument is if it is valid
 <ft>
 .
 06:55
-But, if it is not
-<emp>
- valid
+But, if it is not<emp> valid
 <rt>
  it is not enough to say that it is not valid
 <ft>
@@ -499,9 +479,7 @@ But, if it is not
 <sp>
 
 07:02
-See if it is not
-<emp>
- valid
+See if it is not<emp> valid
 <rt>
  that means you have to provide a
 07:06
@@ -531,9 +509,7 @@ case the argument is invalid
 <ft>
 .
 07:27
-So, that
-<emp>
- is an important aspect
+So, that<emp> is an important aspect
 <rt>
  an in fact this is an aspect that is
 07:32
@@ -547,9 +523,7 @@ But, there is another
 <rt>
  which is 
 {uh}
- getting to be very
-<emp>
- popular
+ getting to be very<emp> popular
 07:46
 now and that is the notion of module checking
 <ft>
@@ -583,15 +557,11 @@ provide the equivalent of a model checking mechanism
 <ft>
 .
 08:12
-So, if it is true
-<emp>
- it will definitely verify it.
+So, if it is true<emp> it will definitely verify it.
 08:16
 
 [And]
- but if it is false
-<emp>
- then 
+ but if it is false<emp> then 
 [it has to provide a falsifying]
  it
 08:20
@@ -633,9 +603,7 @@ propositional connecters
 <rt>
 .
 09:01
-Which, also means you have to identify what are known as the atoms
-<emp>
-
+Which, also means you have to identify what are known as the atoms<emp>
 09:06
 in the arguments
 <rt>
@@ -685,17 +653,13 @@ atoms in the argument
 [So]
 , 
 [we have got so many atoms which are which are so]
- I will use essentially strings
-<emp>
- taken
+ I will use essentially strings<emp> taken
 09:53
 from the argument
 <rt>
  as atomic statement.
 09:57
-Which, cannot be split further
-<emp>
- into sub statement in fact
+Which, cannot be split further<emp> into sub statement in fact
 10:01
 these are the atoms in the arguments identified in some
 10:05
@@ -723,15 +687,9 @@ And
 10:24
 
 {uh}
- There going to be that
-<emp>
- many 
+ There going to be that<emp> many 
 <sp>
- columns
-<emp>
- his so is this gone be a huge
-<emp>
- truth
+ columns<emp> his so is this gone be a huge<emp> truth
 10:34
 table consisting of 
 {uh}
@@ -855,9 +813,7 @@ of abstract and tax trees.
 12:11
 or impish conditional and EQL 
 <sp>
- really foundering as we came to a bar
-<emp>
- of something fact. 
+ really foundering as we came to a bar<emp> of something fact. 
 <lp>
 
 12:23
@@ -923,17 +879,13 @@ like this.
 [a]
 
 13:26
-hypotheses have
-<emp>
- 
+hypotheses have<emp> 
 <sp>
  the conclusion seems to be it is just an atomic one
 <ft>
 .
 13:32
-But, if you look at all the sub formula that you have
-<emp>
- any truth table
+But, if you look at all the sub formula that you have<emp> any truth table
 13:37
 construction will require columns for each of the sub
 13:40
@@ -947,9 +899,7 @@ formularies
 [And so]
  that is how you build up truth values of the 
 <sp>
- full
-<emp>
- formula.
+ full<emp> formula.
 13:48
 So if, I look at all those sub formula
 <rt>
@@ -987,9 +937,7 @@ And so any truth table construction
 <sp>
  would actually have
 14:23
-your 512 rows
-<emp>
- for this.
+your 512 rows<emp> for this.
 14:27
 And multiply by 13 or 14 
 {uh}
@@ -1011,9 +959,7 @@ So, that might be 15 or 16 columns
 14:47
 And then essentially find the truth value of the argument
 <ft>
- that
-<emp>
-
+ that<emp>
 14:53
 can be quite huge.
 14:54
@@ -1027,9 +973,7 @@ So, it be a few thousand cells
 {uh}
  
 <sp>
- so to speak logical
-<emp>
- detective way of doing tautology checking all 
+ so to speak logical<emp> detective way of doing tautology checking all 
 [right.]
 
 15:11
@@ -1117,9 +1061,7 @@ have a conclusion
 16:16
 I mean that is a trowels case of 
 <sp>
- just claiming
-<emp>
- that some proposition is at
+ just claiming<emp> that some proposition is at
 16:20
 tautology
 <ft>
@@ -1149,9 +1091,7 @@ going to be a true or false result
 <ft>
  and that is not sufficient.
 16:41
-If, it is false
-<emp>
- then we also requires previous falsification
+If, it is false<emp> then we also requires previous falsification
 <ft>
  so here is the function
 16:47
@@ -1181,17 +1121,13 @@ entire proposition
 <sp>
  P whether that
 17:07
-conjunct to normal form
-<emp>
- can be falsify
+conjunct to normal form<emp> can be falsify
 <ft>
 .
 17:11
 
 [So]
-, this
-<emp>
- is one possible strategy and not necessarily the
+, this<emp> is one possible strategy and not necessarily the
 17:17
 best strategy
 <rt>
@@ -1235,9 +1171,7 @@ Which, will be
 <sp>
  a big OR 
 {right}
- and then
-<emp>
- if I have to take the conjuctal normal form of
+ and then<emp> if I have to take the conjuctal normal form of
 17:55
 that
 <rt>
@@ -1401,9 +1335,7 @@ One is of course pushing down negation and when you push down
 20:06
 negation then yours or’s an ands get inverted.
 20:09
-But, before that
-<emp>
- what you need to do is to Rewrite all the implication an equivalences
+But, before that<emp> what you need to do is to Rewrite all the implication an equivalences
 20:14
 rewrite implication in equivalences in terms of and
 20:17
@@ -1525,9 +1457,7 @@ So, how do you do falsification?
 [So, essentially what we are]
  so the whole idea now of the tautology checker
 <rt>
- has moved
-<emp>
-
+ has moved<emp>
 22:15
 from actually determining whether it is a formulized tautology
 <rt>
@@ -1603,13 +1533,9 @@ So,
 [if it contain
 23:14
 both the positive]
- for some atom P
-<emp>
- it contains both P
+ for some atom P<emp> it contains both P
 23:18
-and not P
-<emp>
-. Then, the disjunction of P and not P is any way true 
+and not P<emp>. Then, the disjunction of P and not P is any way true 
 <sp>
  so that disjunct never
 23:24
@@ -1617,17 +1543,13 @@ be false
 <ft>
 .
 23:25
-However
-<emp>
-, if there disjunct consist of just 
+However<emp>, if there disjunct consist of just 
 <sp>
  completely disjoint literence 
 <sp>
  with no common
 23:32
-atoms for all the atoms in all the literals are unique
-<emp>
- 
+atoms for all the atoms in all the literals are unique<emp> 
 <sp>
  .
 23:36
@@ -1655,9 +1577,7 @@ is all the litereance in the disjunction are false
 23:56
 
 [And the way to do that is to ensure that so if]
- so now
-<emp>
-, the problem therefore just reduce
+ so now<emp>, the problem therefore just reduce
 24:02
 its so then it can be falsified
 <ft>
@@ -1739,13 +1659,9 @@ actually tautology checkers does
 <sp>
 
 24:57
-So now
-<emp>
-, 
+So now<emp>, 
 {the the}
- the falsification
-<emp>
- of the CNF
+ the falsification<emp> of the CNF
 <rt>
  reduces essentially to just
 25:06
