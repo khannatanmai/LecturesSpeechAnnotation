@@ -1,0 +1,1058 @@
+00:07
+There are many other applications like 
+{uh}
+ 
+{um}
+ constructing the 
+<sp>
+ expression tree 
+<lp>
+ from the
+<rt>
+ 
+<sp>
+ postorder 
+<sp>
+ expression
+<ft>
+. 
+{ok}
+
+00:39
+I leave you with an idea as how to do it
+<rt>
+.
+00:42
+Suppose, I have a b c 
+{uh}
+ plus and star 
+{ok}
+, what we do is
+<rt>
+, when we have symbols
+<rt>
+, first we have
+00:54
+again a forest of trees
+<rt>
+ pointing to a
+<rt>
+, this pointing to b
+<rt>
+, 
+[this pointing to]
+ as you traverse
+01:01
+from the left to right of this expression
+<rt>
+. As you move from left to right of this expression
+01:07
+what you do
+<rt>
+, you just create pointers to trees in a forest
+<ft>
+. Then, what you
+01:11
+do is you come across plus
+<rt>
+, then you create a new node with plus
+<rt>
+ and then, you take the
+01:18
+top most two, it is like a stack 
+{ok}
+, it is actually like a stack
+<rt>
+.
+01:22
+
+[Then, you]
+ it is actually a stack of tress
+<rt>
+. 
+<lp>
+ 
+[What we do is]
+ now, I put these from left to
+01:33
+right
+<rt>
+, I put the trees
+<ft>
+ a, b and
+<rt>
+ c
+<ft>
+. And then, as soon as I come across the operator
+<rt>
+, what
+01:43
+do I do
+<rt>
+, I pop the 
+<sp>
+ most recent two trees, then I create a 
+<sp>
+ new tree
+<rt>
+ with the plus
+<rt>
+ and
+<rt>
+
+01:53
+I make 
+<sp>
+ the first tree the left child
+<rt>
+, the most recently popped out tree be the left
+02:01
+child
+<rt>
+ and 
+<sp>
+ the previously popped out tree be the 
+<rt>
+ right child
+<ft>
+.
+02:08
+Now, again I have one more symbol left, I come across the star
+<rt>
+. 
+[So]
+, I pop out both the
+02:14
+trees
+<rt>
+ and I 
+[create]
+ put on to the stack
+<rt>
+, the star
+<rt>
+ and 
+[the two pop trees become the,]
+ most
+02:29
+recently popped tree becomes the right child
+<rt>
+ and the most
+<emp>
+ recently popped tree becomes
+02:35
+the left child
+<rt>
+ and the previously popped tree becomes the
+<rt>
+ right child
+<ft>
+ and 
+[as soon as,]
+ until
+02:40
+you get a single tree which exists on the stack
+<ft>
+. 
+[So]
+, this is the other application of
+02:46
+binary trees
+<rt>
+ and stacks
+<ft>
+. Both of them can be used
+<rt>
+ quite efficiently to build what are
+02:52
+called
+<rt>
+ expression
+<emp>
+ trees
+<ft>
+. 
+[So]
+, this is a very, very useful application of binary trees
+<rt>
+.
+03:01
+Now, another thing
+<rt>
+ we always like to do when we build binary trees
+<rt>
+. 
+<sp>
+ Let us take this 
+{uh}
+ expression
+03:10
+tree itself, 
+<sp>
+ let us look at an expression
+<rt>
+. 
+<lp>
+ Let us say we have something like this
+<rt>
+, then
+03:30
+what we are doing
+<rt>
+ the expression is evaluated,. 
+[So]
+, it is evaluated from left. 
+<sp>
+ 
+[So]
+, let us
+03:34
+say I have this here 
+<sp>
+ plus 
+<sp>
+ star 
+<sp>
+ b 
+<sp>
+ c actually go over this from the right
+<rt>
+ and 
+<lp>
+ 
+{ok}
+ Let us say
+03:56
+I form an expression tree, I am not known how many of you are familiar
+<rt>
+, 
+<sp>
+ we use this
+04:00
+kind of a 
+<sp>
+ 
+{uh}
+ expression parsing to do this
+<rt>
+ 
+<sp>
+ expression
+<rt>
+ 
+<lp>
+ form 
+<sp>
+ or expression and 
+{uh}
+ 
+<sp>
+ term is 
+<lp>
+ form 
+<lp>
+ or a 
+<lp>
+ factor 
+<lp>
+
+04:46
+and let us say 
+<sp>
+ factor is the
+<rt>
+ 
+<sp>
+ name as it is what it mean
+<rt>
+, let us say this is a, b, 
+<sp>
+ c and.
+05:01
+
+[So]
+, on here. Suppose, I 
+<sp>
+ use this grammar
+<rt>
+ to generate this
+05:08
+expression
+<ft>
+, we have already done a course on compilers
+<rt>
+. Let us see
+<rt>
+, this is completely
+05:13
+an unambiguous grammar
+<rt>
+, we add up here
+<emp>
+ 
+<sp>
+ is plus or minus
+<rt>
+ mult or 
+<sp>
+ star or slash
+<ft>
+, let us
+05:32
+say. 
+[So]
+, how do we parse this given expression?
+<rt>
+ 
+[So]
+, we start from the root over here, expression
+05:42
+is defined as expression add operator terms, I start it over here
+<rt>
+. 
+{ok}
+
+05:48
+Plus, 
+<sp>
+ then what do we have
+<rt>
+, 
+<sp>
+ then on the left hand side
+<rt>
+, then the other plus
+<rt>
+ 
+<sp>
+ again add the
+05:57
+plus, then I will get a here
+<rt>
+ 
+<sp>
+, I will get star b c and 
+{uh}
+ star 
+<sp>
+ b 
+<sp>
+ plus 
+<sp>
+ e f, this is how you will
+06:19
+get a binary tree
+<ft>
+. What I have done is, all the exercise that I have done is
+<rt>
+ to just show
+06:24
+that the expressions 
+<sp>
+ , harmless expressions that 
+{is}
+ I have written like this
+<rt>
+, it can be written
+06:30
+as the binary tree
+<ft>
+. Now, what we will do is
+<rt>
+ we will talk about other things now
+<rt>
+. We will
+06:36
+talk about traversal
+<emp>
+ 
+{of these trees}
+ of this tree
+<ft>
+. Let us see
+<rt>
+ what it gives us
+<ft>
+. There are three
+<emp>
+ types
+06:45
+of traversals 
+<sp>
+ preorder
+<rt>
+ 
+<lp>
+ , postorder
+<rt>
+ 
+<lp>
+ and inorder
+<ft>
+. Now
+<rt>
+, the definitions are given over here
+<rt>
+,
+07:04
+how to traverse these trees
+<ft>
+.
+07:06
+
+[So]
+, preorder traversal says
+<rt>
+ visit the root, then what you do
+<rt>
+, 
+<sp>
+ you visit the left child
+07:14
+in preorder recursively
+<rt>
+, 
+<sp>
+ visit the right child in preorder recursively
+<ft>
+. It means 
+[what now]
+, 
+<lp>
+
+07:21
+
+[let us take]
+ theů  
+<sp>
+ inorder traversal says visit the left child in inorder recursively
+<rt>
+, visit
+07:30
+the root this is the right child in inorder recursively
+<ft>
+ 
+{ok}
+. Then
+<rt>
+, postorder traversal says
+07:37
+visit the left child in postorder.
+<rt>
+
+07:41
+And
+<rt>
+ visit the right child in postorder recursively, visit the root
+<ft>
+ 
+{ok alright}
+. Let us see what this gives,. 
+<lp>
+
+07:50
+
+[So]
+, everything has to be done recursively. What is the meaning of this? 
+<sp>
+
+07:57
+Let us look at inorder traversal, 
+<sp>
+ visit the left child in inorder 
+<sp>
+ recursively. Let us
+08:03
+say, I want to do this traversal of the tree, 
+<lp>
+ traversal means
+<rt>
+ simply walking around to it
+<ft>
+.
+08:16
+Just the way the listed node is got changes.
+<sp>
+  Now, what it says
+<rt>
+ let us look at inorder traversal,
+08:25
+it says
+<rt>
+ first we look at inorder
+<rt>
+, because it will become clear to you what we are doing
+<rt>
+.
+08:32
+Visit 
+<sp>
+ left child 
+<lp>
+ recursively
+<rt>
+ 
+<lp>
+, visit root
+<rt>
+ 
+<lp>
+ and 
+<sp>
+ visit right child
+<rt>
+ recursively
+<ft>
+ is what here
+08:53
+inorder traversal is
+<ft>
+. 
+[So]
+, let us look at the tree what could we
+08:56
+do
+<ft>
+. that means, I am starting from the root here
+<rt>
+ and I am going to recursively keep on
+09:03
+going down to this 
+<sp>
+ until I reach the
+<rt>
+ leaf node
+<ft>
+. Then, what do I do
+<rt>
+, I display
+<rt>
+ the 
+<sp>
+ leaf
+09:12
+node. 
+[So]
+, I keep going down, because I have to visit the left most child. Then, what happens
+09:18
+I go up
+<rt>
+, 
+{ok}
+ then I visit the root 
+<sp>
+ and get plus, then again I go to the right child
+<rt>
+ 
+<sp>
+ and again
+09:27
+after recursively do the same thing; that means, what
+<rt>
+ preorder, inorder all these are
+09:33
+recursive traversals
+<ft>
+. 
+[So]
+, I go to the right child
+<rt>
+, then again I
+09:37
+will do left child recursively
+<rt>
+, root
+<rt>
+, then then right child
+<rt>
+ and then go back.
+<ft>
+ Then, what
+09:45
+happens here
+<rt>
+,. 
+[So]
+, I come down this plus
+<rt>
+ go down here
+<rt>
+, this becomes b star c 
+<sp>
+ and then
+09:57
+what happens
+<rt>
+, 
+<sp>
+ this is node as we already been visited,. 
+[So]
+, I go back up to the root of
+10:02
+the tree 
+<sp>
+ , give me plus
+<rt>
+, then again I come to the right node
+<rt>
+ 
+<sp>
+ star, again I have to do
+10:09
+the recursively left child. 
+[So]
+, I do d, I come to the leaf node
+<rt>
+ 
+<sp>
+ star, then I have to
+10:17
+add e plus 
+<sp>
+ f, the bracket has to come, because it is one level lower
+<ft>
+.
+10:22
+
+[So]
+, inorder traversal
+<rt>
+ essentially gives me the expression back
+<ft>
+. 
+[So]
+, what is it tell me
+10:27
+now, 
+<sp>
+ may I look at the inorder traversal of the tree, I get the
+<rt>
+ infix expression of the
+10:33
+given tree
+<ft>
+. This one extra information that we have used here
+<rt>
+, we use the factor star
+10:39
+is done after
+<emp>
+ plus, because it is one level lower in the tree
+<ft>
+,. 
+[So]
+, I get the infix expression
+<ft>
+.
+10:45
+
+[So]
+, let us look at
+<rt>
+ what 
+[postorder expression,]
+ postorder traversal of the tree will give
+10:52
+you
+<ft>
+. What does postorder traversal say
+<rt>
+, postorder
+10:55
+traversal says visit left child 
+[postorder]
+ in postorder recursively
+<rt>
+, then 
+<lp>
+ visit right
+11:02
+child in postorder recursively, visit root and the same thing keeps on getting repeated
+<rt>
+
+11:07
+again and again
+<ft>
+. 
+[So]
+, I take the left child 
+<rt>
+ recursively
+<emp>
+ visit in postorder
+<ft>
+, let me just
+11:14
+explain this over here. Actually, what this mean to us, what does it gives you
+<rt>
+,. 
+[So,]
+ I
+11:22
+
+[am moved here,]
+ visit the left child, I cannot came down, there are no more leaf nodes
+<rt>
+,.
+11:26
+
+[So]
+, I display a
+<ft>
+. Then, I have to go to the
+<rt>
+ right child
+<ft>
+, go
+11:31
+back
+<rt>
+ left child
+<rt>
+, right child
+<rt>
+ and then root is what it says, go to the right child
+<ft>
+. Then,
+11:36
+right child again I have to recursively go down, do postorder
+<rt>
+, 
+{right}
+
+<rt>
+ left child, right child,
+11:43
+then root
+<ft>
+.
+11:44
+
+[So]
+, what will happen
+<rt>
+, I get a b c star
+<rt>
+, then
+<rt>
+, what do I get
+<rt>
+, now all of them have been visited
+<rt>
+,
+11:52
+I go back up
+<rt>
+,. 
+[So]
+, left child, right child, then root get plus here
+<rt>
+ 
+<sp>
+ and 
+{uh}
+ then, what happens
+<rt>
+.
+12:01
+
+[So]
+, the left child of this root tree is completed now
+<rt>
+,. 
+[So]
+, I go to the right tree over here
+<rt>
+.
+12:07
+Then
+<emp>
+, 
+[what do I get now,]
+ what do I get here now
+<rt>
+, I 
+[have]
+ get d 
+<sp>
+ , then again
+<rt>
+ this is the
+12:16
+left child
+<rt>
+, this is the leaf node
+<rt>
+, there is nothing else to see
+<rt>
+, therefore, I display
+12:19
+the leaf node
+<rt>
+. Then, I go to its right child
+<rt>
+, again I have
+12:22
+to look at postorder over there
+<rt>
+. Therefore, I get e f 
+[plus]
+ plus
+<rt>
+ e left child postorder
+<rt>
+,
+12:31
+right child postorder
+<rt>
+, root
+<rt>
+ 
+{ok}
+ then I will put the plus over here
+<rt>
+ that is how it comes here
+12:37
+and then 
+[finally,]
+
+<rt>
+ this star and then finally, the plus, the last plus sign, that we have
+<ft>
+.
+12:48
+
+[So,]
+ I am made a mistake here
+<rt>
+, this plus should not be here
+<ft>
+. See, a b c star
+<rt>
+, then I have
+12:56
+to do the right child
+<rt>
+, d e f plus star plus. 
+[So]
+, what did we get now
+<rt>
+, we got a b c star
+<rt>
+ 
+<sp>
+
+13:06
+plus correct 
+<sp>
+ , 
+{correct sorry}
+ d e f plus 
+<sp>
+ star plus 
+<sp>
+ . How many are there? 1, 2, 3 
+<sp>
+ correct. 
+{ok}
+
+13:21
+
+[So]
+, this is what we get as the
+<rt>
+ expression
+<ft>
+. What is the expression now
+<rt>
+, this is nothing,,
+13:26
+but the
+<rt>
+ 
+<sp>
+ postfix expression which all of us have already
+<rt>
+ been done
+<ft>
+. When we talked about
+13:33
+
+[stack,]
+ stacks
+<rt>
+ we talked about 
+<sp>
+ generating the postfix expression
+<rt>
+ from an infix expression
+<ft>
+.
+13:41
+
+[So]
+, what is interesting here is
+<rt>
+ once it is represented as a binary tree
+<rt>
+, if I do inorder
+13:47
+traversal
+<rt>
+ I get the infix expression
+<rt>
+, when I do postorder traversal
+<rt>
+ I get the postfix
+13:52
+expression
+<rt>
+ and obviously, if I do preorder traversal 
+<rt>
+I will get the prefix expression
+<ft>
+. 
+{ok}
+
+13:58
+
+[So]
+, this is also a very big application of binary trees
+<ft>
+. Now, once
+<emp>
+ this expression is
+14:04
+given like this
+<rt>
+, I can use this stack of trees
+<rt>
+ to evaluate this particular expression
+<ft>
+. 
+[So]
+,
+14:12
+I hope you are with me here
+<rt>
+ and you have understood what I have said
+<ft>
+. 
+{ok}
+ 
+[So]
+, what is it we are doing
+<rt>
+
+14:18
+notice that another
+<emp>
+ we have looking at this various traversals
+<rt>
+ to make it simpler is 
+<sp>
+ preorder
+14:25
+traversal can be thought of as
+<rt>
+ 
+<sp>
+, you 
+<sp>
+ display
+<emp>
+ the node the first time you visit it.
+<ft>
+
+14:34
+In inorder traversal
+<rt>
+, you display the node the second time you will visit it. Remember,
+14:40
+I have drawn this path over here 
+<sp>
+ which goes around the tree
+<rt>
+ and in postorder traversal
+<rt>
+
+14:47
+you display the node, the last time you visit it.
+<ft>
+ 
+[So]
+, these are simple traversals schemes
+<ft>
+. 
+{ok}
+
+14:53
+
+[So]
+, now the next question
+<rt>
+ that we would like to ask is
+<rt>
+ suppose you are given 
+<sp>
+ only the traversals, 
+<lp>
+
+15:02
+traversals are given
+<rt>
+, 
+<lp>
+ can we
+<rt>
+ 
+<lp>
+ construct the tree
+<rt>
+ 
+<lp>
+ exactly?
+<ft>
+ 
+<sp>
+ 
+{ok}
+
+15:27
+
+[Let us look at only with respect to binary trees and see if I am given the,]
+ what is that
+15:33
+we have two traversals now
+<ft>
+, inorder traversal
+<rt>
+ and we have the
+<rt>
+ 
+<sp>
+ postorder traversal$. We can
+15:42
+also do the preorder
+<rt>
+ I encourage you to do the preorder traversal of the tree
+<ft>
+. Now, given
+15:47
+the inorder traversal
+<rt>
+ can I construct the tree uniquely 
+{give}
+ without any other information
+<ft>
+
+15:52
+and given the 
+{uh}
+ postorder traversal, can I construct the tree uniquely
+<rt>
+, let us see how you will
+15:59
+do this in the next lecture
+<ft>
+.
